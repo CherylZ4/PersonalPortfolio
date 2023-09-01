@@ -8,6 +8,9 @@ export default {
         'custom-gray': '#77767A',
         'custom-hover': '#8C73C3',
       },
+      fontFamily: {
+        inter: ['Inter', 'san-serif'],
+      },
     },
   },
   variants:{
