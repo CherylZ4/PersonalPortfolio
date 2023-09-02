@@ -1,6 +1,6 @@
 import {Link} from '@remix-run/react';
 
-import backgroundImage from '../Background.png';
+import backgroundImage from '../imgs/Background.png';
 import '../fonts.css';
 
 export default function About() {
