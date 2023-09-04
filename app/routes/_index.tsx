@@ -3,10 +3,17 @@ import backgroundImage from '../imgs/Background.png';
 import rectangle from '../imgs/rectangle.png';
 import '../fonts.css';
 import { useEffect, useState } from 'react';
+import PDFViewer from '../PDFViewer';
+
 
 
 export default function Index() {
   const [isVisible, setIsVisible] = useState({ hello: false, cheryl: false, zhang: false, developer: false, });
+  const [showPDF, setShowPDF] = useState(false);
+
+  const togglePDFViewer = () => {
+    setShowPDF(!showPDF);
+  };
 
   useEffect(() => {
     setTimeout(() => setIsVisible((prev) => ({ ...prev, hello: true })), 500);
@@ -16,24 +23,20 @@ export default function Index() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-cover bg-center flex flex-col items-start justify-center px-4 scroll-smooth"
+    <div className="min-h-screen bg-cover bg-center flex flex-col items-start justify-center px-4"
       style={{ backgroundImage: `url(${backgroundImage})` }}>
-
-      {/* Hello I'm */}
+      
       <h1 className={`text-custom-gray font-inter font-thin text-2xl ml-40 mb-2 ${isVisible.hello ? 'opacity-100 transition-opacity duration-500 ease-in' : 'opacity-0'}`}>
         Hello, I'm
       </h1>
-
-      {/* Cheryl */}
+     
       <h1 className={`text-custom-gray font-brygada-1918 text-8xl font-medium ml-40 ${isVisible.cheryl ? 'opacity-100 transition-opacity duration-500 ease-in' : 'opacity-0'}`}>
         Cheryl
       </h1>
 
-      {/* Zhang */}
       <h1 className={`text-custom-gray font-brygada-1918 text-8xl font-medium ml-40 ${isVisible.zhang ? 'opacity-100 transition-opacity duration-500 ease-in' : 'opacity-0'}`}>
         Zhang
       </h1>
-
 
       <div className={`ml-auto flex flex-col items-end ${isVisible.developer ? '' : 'opacity-0'
         }`}>
@@ -52,6 +55,18 @@ export default function Index() {
         <a href="https://www.linkedin.com/in/cheryl-zhang1/" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-sm">linkedIn </a>
         <a href="https://github.com/CherylZ4" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-sm">github </a>
         <a href="https://devpost.com/cherylzhang8?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-sm">devpost </a>
+        <a
+        href="#"
+        onClick={(e) => {
+          e.preventDefault(); // Prevents the page from navigating
+          togglePDFViewer(); // Toggle the PDF viewer on link click
+        }}
+        className="text-custom-gray hover:text-custom-hover font-inter text-sm"
+      >
+        Resume
+      </a>
+      {showPDF && <PDFViewer pdfUrl="../public/Resume.pdf"/>}
+
       </div>
     </div>
   );
