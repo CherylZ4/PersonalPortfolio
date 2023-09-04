@@ -6,6 +6,8 @@ import sourceMapSupport from "source-map-support";
 sourceMapSupport.install();
 installGlobals();
 
+
+// Define the Remix request handler
 export const handler = createRequestHandler({
   build,
   mode: process.env.NODE_ENV,

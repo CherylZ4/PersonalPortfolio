@@ -11,9 +11,9 @@ export default function Projects() {
       <div className="min-h-full bg-cover bg-center flex flex-col items-start justify-start px-4"
         style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="absolute top-4 right-10 flex space-x-8">
-          <Link to="/" className=" text-custom-gray hover:text-custom-hover font-inter text-base" > home</Link>
-          <Link to="/projects" className="  text-custom-gray hover:text-custom-hover font-inter text-base" > projects</Link>
-          <Link to="/about" className=" text-custom-gray hover:text-custom-hover font-inter text-base"> about</Link>
+          <Link to="/" className=" text-custom-gray hover:text-custom-hover font-inter text-sm" > home</Link>
+          <Link to="/projects" className="  text-custom-gray hover:text-custom-hover font-inter text-sm" > projects</Link>
+          
         </div>
 
         <div className="absolute bottom-4 right-10 flex space-x-8">
