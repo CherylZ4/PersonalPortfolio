@@ -10,17 +10,17 @@ export default function Projects() {
     <div className="scrollable-container h-[1000px] overflow-y-scroll relative">
       <div className="min-h-full bg-cover bg-center flex flex-col items-start justify-start px-4"
         style={{ backgroundImage: `url(${backgroundImage})` }}>
-        <div className="absolute top-4 right-10 flex space-x-8">
-          <Link to="/" className=" text-custom-gray hover:text-custom-hover font-inter text-sm" > home</Link>
-          <Link to="/projects" className="  text-custom-gray hover:text-custom-hover font-inter text-sm" > projects</Link>
+        <div className="absolute top-6 right-16 flex space-x-8">
+          <Link to="/" className=" text-custom-gray hover:text-custom-hover font-inter text-lg" > home</Link>
+          <Link to="/projects" className="  text-custom-gray hover:text-custom-hover font-inter text-lg" > projects</Link>
           
         </div>
 
-        <div className="absolute bottom-4 right-10 flex space-x-8">
-          <a href="https://www.linkedin.com/in/cheryl-zhang1/" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-sm">linkedIn </a>
-          <a href="https://github.com/CherylZ4" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-sm">github </a>
-          <a href="https://devpost.com/cherylzhang8?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-sm">devpost </a>
-        </div>
+        {/* <div className="absolute bottom-4 right-10 flex space-x-8">
+          <a href="https://www.linkedin.com/in/cheryl-zhang1/" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">linkedIn </a>
+          <a href="https://github.com/CherylZ4" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">github </a>
+          <a href="/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-custom-gray hover:text-custom-hover font-inter text-lg">resume</a>
+        </div> */}
 
         <div className="container ml-20">
           <Fade duration={2000}><p className='text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 mt-16'>Projects</p></Fade>
@@ -47,6 +47,26 @@ export default function Projects() {
               </div>
             </div>
           </Fade>
+
+          <div className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2">
+          <Fade duration={4000}>
+            <div className="mr-32 mb-8">
+              <p className="text-custom-gray font-brygada-1918 text-4xl font-semibold tracking-widest">get in touch!</p>
+            </div>
+          </Fade>
+
+          <div className=" flex space-x-10 mb-4">
+            <Fade duration={4000}>
+              <p className='text-custom-gray font-inter text-lg'>cherylzhang8@gmail.com</p>
+              <a href="https://www.linkedin.com/in/cheryl-zhang1/" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">linkedIn </a>
+              <a href="https://github.com/CherylZ4" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">github </a>
+              <a href="/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-custom-gray hover:text-custom-hover font-inter text-lg">resume</a>
+            </Fade>
+          </div>
+          <div>
+          </div>
+        </div>
+
         </div>
       </div>
     </div>
