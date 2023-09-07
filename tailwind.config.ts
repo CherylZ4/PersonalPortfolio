@@ -11,6 +11,14 @@ export default {
       fontFamily: {
         inter: ['Inter', 'san-serif'],
       },
+      screens: {
+        'xs': '100px',
+        'sm': '640px',      // Small screens
+        'md': '768px',      // Medium screens
+        'lg': '1024px',     // Large screens
+        'xl': '1280px',     // Extra large screens
+        // Add more breakpoints as needed
+      },
     },
   },
   variants:{

@@ -7,8 +7,8 @@ import { Link } from '@remix-run/react';
 
 export default function Projects() {
   return (
-    <div className="scrollable-container h-[1000px] overflow-y-scroll relative">
-      <div className="min-h-full bg-cover bg-center flex flex-col items-start justify-start px-4"
+    <div className="scrollable-container h-[2400]px sm:h-[2100px] md:h-[1600px] lg:h-[1200px] xl:h-[1200px] overflow-y-scroll relative">
+      <div className="h-full bg-cover bg-center flex flex-col items-start justify-start px-4"
         style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="absolute top-6 right-16 flex space-x-8">
           <Link to="/" className=" text-custom-gray hover:text-custom-hover font-inter text-lg" > home</Link>
@@ -16,47 +16,42 @@ export default function Projects() {
           
         </div>
 
-        {/* <div className="absolute bottom-4 right-10 flex space-x-8">
-          <a href="https://www.linkedin.com/in/cheryl-zhang1/" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">linkedIn </a>
-          <a href="https://github.com/CherylZ4" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">github </a>
-          <a href="/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-custom-gray hover:text-custom-hover font-inter text-lg">resume</a>
-        </div> */}
-
         <div className="container ml-20">
-          <Fade duration={2000}><p className='text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 mt-16'>Projects</p></Fade>
-          <Fade duration={5000}>
+          <Fade duration={2000}><p className='text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 mt-20'>Projects</p></Fade>
+          <Fade duration={4000}>
 
-            <div className="flex items-center">
+            <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-row xl:flex-row flex items-center">
               <div>
-                <p className='text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-1'>Speech Summarizer</p>
-                <h1 className='text-custom-gray font-brygada-1918 text-xl font-normal italic mb-2'>Winner of Best Mobile App at Ignition Hacks 2023</h1>
-                <p className='text-custom-gray font-brygada-1918 text-lg'>Worked with a team of 3 to create a web app where users upload audio/video files of their meetings and the app will take that file and convert it into condensed and informative meeting minutes.
+                <p className='text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-1 ml-6'>Speech Summarizer</p>
+                <h1 className='text-custom-gray font-brygada-1918 text-xl font-normal italic mb-2 ml-6'>Winner of Best Mobile App at Ignition Hacks 2023</h1>
+                <p className='text-custom-gray font-brygada-1918 text-lg ml-6'>Worked with a team of 3 to create a web app where users upload audio/video files of their meetings and the app will take that file and convert it into condensed and informative meeting minutes.
                   Made a REST API that calls Google Cloud’s Speech to Text API to orchestrate a conversion of audio content to text. Deployed the application to Google Kubernetes Engine(GKE) utilizing Docker containers.</p>
               </div>
 
-              <img src={phoneImage} className="w-1/4 h-1/4 ml-10 mr-15" />
+              <img src={phoneImage} className="sm:mr-20 md:mr-20 lg:mr-32 xl:mr-40 max-w-xs mt-10 h-auto w-auto ml-36 sm:w-1/2 sm:h-1/2 md:w-1/2 md:h-1/2 lg:w-1/2 lg:h-1/2 xl:w-1/2 xl:h-1/2 mb-6 sm:ml-20 md:ml-20 lg:ml-20 xl:ml-20" />
             </div>
           </Fade>
 
-          <Fade duration={8000}>
-            <div className="flex items-center mt-40">
-              <img src={screenImage} className="w-1/2 h-1/2 mr-16" />
+          <Fade duration={6000}>
+            <div className="flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row flex items-center mt-32">
+              <img src={screenImage} className="ml-20 max-w-xs w-auto h-auto sm:w-1/2 sm:h-1/2 md:w-1/2 md:h-1/2 lg:w-1/2 lg:h-1/2 xl:w-1/2 xl:h-1/2 mb-10 sm:mr-20 md:mr-20 lg:mr-20 xl:mr-20 sm:ml-10 md:ml-10 lg:ml-10 xl:ml-10" />
               <div>
-                <p className='text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-2 text-right'>Product Comparison</p>
-                <p className='text-custom-gray font-brygada-1918 text-lg text-right'>Assembled a REST API in Java that seamlessly integrates with OpenAI's API to find the ingredients of products given their names. Incorporated data processing mechanisms to identify common and unique ingredients of each product. Implemented ReactJS to build a dynamic webpage where users can input products to compare only if they are logged in. There is also a history page that displays all past requests.</p>
+                <p className='text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-2 text-right sm:mr-20 md:mr-20 lg:mr-20 xl:mr-40'>Product Comparison</p>
+                <p className='text-custom-gray font-brygada-1918 text-lg text-right mb-52 sm:mr-20 md:mr-20 lg:mr-20 xl:mr-40'>Assembled a REST API in Java that seamlessly integrates with OpenAI's API to find the ingredients of products given their names. Incorporated data processing mechanisms to identify common and unique ingredients of each product. Implemented ReactJS to build a dynamic webpage where users can input products to compare only if they are logged in. There is also a history page that displays all past requests.</p>
               </div>
             </div>
           </Fade>
 
-          <div className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2">
-          <Fade duration={4000}>
+        </div>
+        <div className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2">
+          <Fade duration={2000}>
             <div className="mr-32 mb-8">
               <p className="text-custom-gray font-brygada-1918 text-4xl font-semibold tracking-widest">get in touch!</p>
             </div>
           </Fade>
 
           <div className=" flex space-x-10 mb-4">
-            <Fade duration={4000}>
+            <Fade duration={2000}>
               <p className='text-custom-gray font-inter text-lg'>cherylzhang8@gmail.com</p>
               <a href="https://www.linkedin.com/in/cheryl-zhang1/" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">linkedIn </a>
               <a href="https://github.com/CherylZ4" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">github </a>
@@ -65,8 +60,6 @@ export default function Projects() {
           </div>
           <div>
           </div>
-        </div>
-
         </div>
       </div>
     </div>
