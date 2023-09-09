@@ -18,10 +18,11 @@ export default function Projects() {
         </div>
 
         <div className="container ml-20">
-        <FadeIn>
-          <p className='text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 mt-20'>Projects</p>
-          </FadeIn>
+           
+          
           <FadeIn>
+          <p className='text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 mt-20'>Projects</p>
+            
             <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-row xl:flex-row flex items-center">
               <div>
                 <p className='text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-1 ml-6'>Speech Summarizer</p>
@@ -43,10 +44,10 @@ export default function Projects() {
               </div>
             </div>
             </FadeIn>
-            
-
         </div>
+
         <FadeIn>
+
         <div className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2">
           
             <div className="mr-32 mb-8">
@@ -61,8 +62,7 @@ export default function Projects() {
               <a href="/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-custom-gray hover:text-custom-hover font-inter text-lg">resume</a>
            
           </div>
-          <div>
-          </div>
+    
         </div>
         </FadeIn>
       </div>
