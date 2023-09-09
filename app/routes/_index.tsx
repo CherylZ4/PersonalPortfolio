@@ -1,11 +1,12 @@
 import { Link } from '@remix-run/react';
-import Fade from 'react-reveal/Fade';
 import backgroundImage from '../imgs/Background.png';
 import rectangle from '../imgs/rectangle.png';
 import '../fonts.css';
 import { useEffect, useState } from 'react';
 import arrow from "../imgs/arrow.png";
 import me from "../imgs/Me.png";
+import FadeIn from '../FadeIn';
+
 
 
 
@@ -21,6 +22,9 @@ export default function Index() {
     setTimeout(() => setIsVisible((prev) => ({ ...prev, developer: true })), 1600);
     setTimeout(() => setIsVisible((prev) => ({ ...prev, arrow: true })), 2000);
   }, []);
+
+  
+
 
   return (
 
@@ -58,45 +62,47 @@ export default function Index() {
 
         <div className="ml-5">
           <div className="flex flex-col items-center justify-start ml-36 sm:ml-80 md:ml-96 lg:ml-96 xl:ml-96 mt-16">
-            <Fade duration={2000}>
+          <FadeIn>
               <h1 className="text-custom-gray font-brygada-1918 text-5xl font-medium lg:ml-24 xl:ml-24 lg:mt-10 xl:mt-10">About me</h1>
-            </Fade>
+              </FadeIn>
           </div>
         </div>
 
 
         <div>
-          <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-col xl:flex-row ml-12 sm:ml-44 md:ml-44 lg:ml-60 xl:ml-60 flex items-center mr:20 md:mr-20 lg:mr-32 xl:mr-32">
-            <Fade duration={4000}>
+        <FadeIn>
+          <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-row xl:flex-row ml-12 sm:ml-44 md:ml-44 lg:ml-60 xl:ml-60 flex items-center mr:20 md:mr-20 lg:mr-32 xl:mr-32">
+         
               <p className="text-custom-gray font-brygada-1918 text-lg text-center mt-12">
                 My name is Cheryl Zhang, and I am pursuing a Specialist in Computer Science at the University of Toronto Scarborough. I am someone who enjoys continuous learning and adaptability. Furthermore, I embrace each new challenge as an opportunity to grow, and I'm excited to keep crafting innovative solutions that exceed expectations. If you would like to chat, feel free to send an email!
               </p>
               <img src={me} className='w-1/4 h-1/4 lg:w-1/5 lg:h-1/5 xl:w-1/5 xl:h-1/5 mb-10 md:mb-0 lg:mb-0 xl:mb-0 mt-10 sm:ml-20 md:ml-20 lg:ml-20 xl:ml-20'></img>
-            </Fade>
           </div>
+          </FadeIn>
         </div>
 
         <div className="absolute top-6 right-16 flex space-x-8">
           <Link to="/" className=" text-custom-gray hover:text-custom-hover font-inter text-lg" > home</Link>
           <Link to="/projects" className="  text-custom-gray hover:text-custom-hover font-inter text-lg" > projects</Link>
         </div>
-
+        <FadeIn>
         <div className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2">
-          <Fade duration={6000}>
+        
             <div className="mr-32 mb-8 ">
               <p className="text-custom-gray font-brygada-1918 text-4xl font-semibold tracking-widest">get in touch!</p>
             </div>
-          </Fade>
+            
 
           <div className=" flex space-x-10 mb-4">
-            <Fade duration={6000}>
+          
               <p className='text-custom-gray font-inter text-lg'>cherylzhang8@gmail.com</p>
               <a href="https://www.linkedin.com/in/cheryl-zhang1/" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">linkedIn </a>
               <a href="https://github.com/CherylZ4" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">github </a>
               <a href="/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-custom-gray hover:text-custom-hover font-inter text-lg">resume</a>
-            </Fade>
+              
           </div>
         </div>
+        </FadeIn>
 
       </div>
     </div>
