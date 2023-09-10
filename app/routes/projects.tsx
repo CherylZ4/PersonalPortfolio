@@ -77,7 +77,7 @@ export default function Projects() {
           <div className="flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row flex items-center mt-32">
             <img
               src={screenImage}
-              className="sm:mb-20 md:mb-32 lg:mb-32 xl:mb-32 ml-20 max-w-xs w-auto h-auto sm:w-1/2 sm:h-1/2 md:w-1/2 md:h-1/2 lg:w-1/2 lg:h-1/2 xl:w-1/2 xl:h-1/2 mb-10 sm:mr-20 md:mr-20 lg:mr-20 xl:mr-20 sm:ml-10 md:ml-10 lg:ml-10 xl:ml-10"
+              className="sm:mb-20 md:mb-32 lg:mb-32 xl:mb-32 ml-28 max-w-xs w-auto h-auto sm:w-1/2 sm:h-1/2 md:w-1/2 md:h-1/2 lg:w-1/2 lg:h-1/2 xl:w-1/2 xl:h-1/2 mb-10 sm:mr-20 md:mr-20 lg:mr-20 xl:mr-20 sm:ml-10 md:ml-10 lg:ml-10 xl:ml-10"
             />
             <div>
               <p className="text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-2 text-right sm:mr-20 md:mr-20 lg:mr-20 xl:mr-40">
@@ -104,16 +104,14 @@ export default function Projects() {
           viewport={{once: true}}
           className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2"
         >
-          <div className="mr-32 mb-8">
+          <div className="mr-18 mb-8">
             <p className="text-custom-gray font-brygada-1918 text-4xl font-semibold tracking-widest">
               get in touch!
             </p>
           </div>
 
           <div className=" flex space-x-10 mb-4">
-            <p className="text-custom-gray font-inter text-lg">
-              cherylzhang8@gmail.com
-            </p>
+
             <a
               href="https://www.linkedin.com/in/cheryl-zhang1/"
               target="_blank"
