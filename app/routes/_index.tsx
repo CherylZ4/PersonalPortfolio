@@ -5,7 +5,6 @@ import '../fonts.css';
 import { useEffect, useState } from 'react';
 import arrow from "../imgs/arrow.png";
 import me from "../imgs/Me.png";
-import FadeIn from '../FadeIn';
 import { motion, Variants } from "framer-motion";
 
 
