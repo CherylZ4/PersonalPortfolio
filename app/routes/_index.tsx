@@ -66,7 +66,7 @@ export default function Index() {
           exit="hide"
           variants={fadeIn}
           viewport={{once: true}} className="ml-5">
-          <div className="flex flex-col items-center justify-start ml-40 sm:ml-80 md:ml-80 lg:ml-96 xl:ml-96 mt-40 sm:mt-16 md:mt-16 lg:mt-16 xl:mt-16">
+          <div className="flex flex-col items-center justify-start ml-28 sm:ml-88 md:ml-80 lg:ml-96 xl:ml-96 mt-40 sm:mt-16 md:mt-16 lg:mt-16 xl:mt-16">
           
               <h1 className="text-custom-gray font-brygada-1918 text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl font-medium lg:ml-24 xl:ml-24 lg:mt-10 xl:mt-10">About me</h1>
              
@@ -81,7 +81,7 @@ export default function Index() {
           variants={fadeIn}
           viewport={{once: true}}>
        
-          <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-row xl:flex-row ml-6 sm:ml-44 md:ml-44 lg:ml-60 xl:ml-60 flex items-center mr:20 md:mr-20 lg:mr-32 xl:mr-32">
+          <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-row xl:flex-row ml-6 sm:ml-44 md:ml-44 lg:ml-60 xl:ml-60 flex items-center md:mr-20 lg:mr-32 xl:mr-32">
          
               <p className="text-custom-gray font-brygada-1918 text-lg text-center mt-12">
                 My name is Cheryl Zhang, and I am pursuing a Specialist in Computer Science at the University of Toronto Scarborough. I am someone who enjoys continuous learning and adaptability. Furthermore, I embrace each new challenge as an opportunity to grow, and I'm excited to keep crafting innovative solutions that exceed expectations. Please feel free to reach out to chat!
@@ -104,7 +104,7 @@ export default function Index() {
           variants={fadeIn}
           viewport={{once: true}} className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2">
         
-            <div className=" ml-18 sm:mr-3 md:mr-3 lg:mr-3 xl:mr-3 mb-8 ">
+            <div className=" flex items-center ml-18 sm:mr-3 md:mr-3 lg:mr-3 xl:mr-3 mb-8">
               <p className="text-custom-gray font-brygada-1918 text-4xl font-semibold tracking-widest">get in touch!</p>
             </div>
             
