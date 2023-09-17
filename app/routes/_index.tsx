@@ -28,7 +28,7 @@ export default function Index() {
 
   return (
 
-    <div className="scrollable-container h-[1600px] overflow-y-scroll relative sm:max-h-[1400px] md:max-h-[1400px] lg:max-h-[1400px] xl:max-h-[1400px]">
+    <div className="scrollable-container h-[1600px] overflow-y-scroll relative sm:max-h-[1400px] md:max-h-[1400px] lg:max-h-[1400px] xl:max-h-[1480px]">
       <div className="h-full bg-cover bg-center flex flex-col items-start px-4"
 
         style={{ backgroundImage: `url(${backgroundImage})` }} >
@@ -55,7 +55,7 @@ export default function Index() {
 
         <div className={` sm:ml-64 md:ml-96 lg:ml-96 xl:ml-96 ${isVisible.arrow ? 'opacity-100 transition-opacity duration-500 ease-in' : 'opacity-0'
           }`}>
-          <img src={arrow} className="ml-36 mt-20"></img>
+          <img src={arrow} className="ml-36 mt-20 xl:ml-44"></img>
         </div>
 
 
@@ -66,9 +66,9 @@ export default function Index() {
           exit="hide"
           variants={fadeIn}
           viewport={{once: true}} className="ml-5">
-          <div className="flex flex-col items-center justify-start ml-40 sm:ml-88 md:ml-80 lg:ml-96 xl:ml-96 mt-40 sm:mt-16 md:mt-16 lg:mt-16 xl:mt-16">
+          <div className="flex flex-col items-center justify-start ml-48 sm:ml-88 md:ml-80 lg:ml-96 xl:ml-96 mt-64 sm:mt-36 md:mt-36 lg:mt-20 xl:mt-20">
           
-              <h1 className="text-custom-gray font-brygada-1918 text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl font-medium lg:ml-24 xl:ml-24 lg:mt-10 xl:mt-10">About me</h1>
+              <h1 className="text-custom-gray font-brygada-1918 text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl font-medium lg:ml-32 xl:ml-40 lg:mt-16 xl:mt-16">About me</h1>
              
           </div>
         </motion.div>
@@ -81,9 +81,9 @@ export default function Index() {
           variants={fadeIn}
           viewport={{once: true}}>
        
-          <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-row xl:flex-row ml-6 sm:ml-44 md:ml-44 lg:ml-60 xl:ml-60 flex items-center md:mr-20 lg:mr-32 xl:mr-32">
+          <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-row xl:flex-row ml-6 sm:ml-20 md:ml-32 lg:ml-60 xl:ml-60 flex items-center md:mr-20 lg:mr-32 xl:mr-32">
          
-              <p className="text-custom-gray font-brygada-1918 text-lg text-center mt-12">
+              <p className="text-custom-gray font-brygada-1918 text-lg text-center mt-12 sm:mt-12 md:mt-12 lg:mt-8 xl:mt-0">
                 My name is Cheryl Zhang, and I am pursuing a HBSc Computer Science Co-op Student at the University of Toronto Scarborough. I am someone who embraces each new challenge as an opportunity to grow, and I'm excited to keep crafting innovative solutions that exceed expectations. In my spare time, I enjoy reading manga and watching K-pop, makeup, and fashion videos. Please feel free to reach out to chat!
               </p>
               <img src={me} className='w-1/4 h-1/4 lg:w-1/5 lg:h-1/5 xl:w-1/5 xl:h-1/5 mb-0 md:mb-0 lg:mb-0 xl:mb-0 mt-10 sm:ml-20 md:ml-20 lg:ml-20 xl:ml-20'></img>
