@@ -84,7 +84,7 @@ export default function Index() {
           <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-row xl:flex-row ml-6 sm:ml-20 md:ml-32 lg:ml-60 xl:ml-60 flex items-center md:mr-20 lg:mr-32 xl:mr-32">
          
               <p className="text-custom-gray font-brygada-1918 text-lg text-center mt-12 sm:mt-12 md:mt-12 lg:mt-8 xl:mt-0">
-                My name is Cheryl Zhang, and I am pursuing a HBSc Computer Science Co-op Student at the University of Toronto Scarborough. I am someone who embraces each new challenge as an opportunity to grow, and I'm excited to keep crafting innovative solutions that exceed expectations. In my spare time, I enjoy reading manga and watching K-pop, makeup, and fashion videos. Please feel free to reach out to chat!
+                My name is Cheryl Zhang, and I am a HBSc Computer Science Co-op Student at the University of Toronto Scarborough. I am someone who embraces each new challenge as an opportunity to grow, and I'm excited to keep crafting innovative solutions that exceed expectations. In my spare time, I enjoy reading manga and watching K-pop, makeup, and fashion videos. Please feel free to reach out to chat!
               </p>
               <img src={me} className='w-1/4 h-1/4 lg:w-1/5 lg:h-1/5 xl:w-1/5 xl:h-1/5 mb-0 md:mb-0 lg:mb-0 xl:mb-0 mt-10 sm:ml-20 md:ml-20 lg:ml-20 xl:ml-20'></img>
           </div>
