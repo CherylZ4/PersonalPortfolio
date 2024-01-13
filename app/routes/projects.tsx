@@ -7,22 +7,19 @@ import { motion, Variants } from "framer-motion";
 
 export default function Projects() {
   return (
-    <div className="scrollable-container h-[2400px] sm:h-[2100px] md:h-[1600px] lg:h-[1200px] xl:h-[1200px] overflow-y-scroll relative">
+    <div className="scrollable-container h-[1600px] overflow-y-scroll relative">
       <div
-        className="h-full bg-cover bg-center flex flex-col items-start justify-start px-4"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
-      >
+        className="h-full bg-cover bg-center flex flex-col items-start px-4"
+        style={{ backgroundImage: `url(${backgroundImage})` }}>
         <div className="absolute top-6 right-16 flex space-x-8">
           <Link
             to="/"
-            className=" text-custom-gray hover:text-custom-hover font-inter text-lg"
-          >
+            className=" text-custom-gray hover:text-custom-hover font-inter text-lg">
             home
           </Link>
           <Link
             to="/projects"
-            className="  text-custom-gray hover:text-custom-hover font-inter text-lg"
-          >
+            className="  text-custom-gray hover:text-custom-hover font-inter text-lg">
             projects
           </Link>
           <Link to="/work" className="text-custom-gray hover:text-custom-hover font-inter text-lg">work</Link>
@@ -32,7 +29,7 @@ export default function Projects() {
           whileInView="show"
           exit="hide"
           variants={fadeIn}
-          viewport={{once: true}}
+          viewport={{ once: true }}
           className="container ml-20"
         >
           <p className="text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 mt-20">
@@ -70,7 +67,7 @@ export default function Projects() {
           whileInView="show"
           exit="hide"
           variants={fadeIn}
-          viewport={{once: true}}
+          viewport={{ once: true }}
           className="container ml-20"
         >
           <div className="flex-col sm:flex-row md:flex-row lg:flex-row xl:flex-row flex items-center mt-32">
@@ -100,7 +97,7 @@ export default function Projects() {
           whileInView="show"
           exit="hide"
           variants={fadeIn}
-          viewport={{once: true}}
+          viewport={{ once: true }}
           className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2"
         >
           <div className="mr-18 mb-8">

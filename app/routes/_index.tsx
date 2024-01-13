@@ -74,7 +74,7 @@ export default function Index() {
               <p className="text-custom-gray font-brygada-1918 text-lg text-center mt-12 sm:mt-12 md:mt-12 lg:mt-8 xl:mt-0">
                 My name is Cheryl Zhang, and I am a HBSc Computer Science Co-op Student at the University of Toronto Scarborough. I am someone who embraces each new challenge as an opportunity to grow, and I'm excited to keep crafting innovative solutions that exceed expectations. In my spare time, I enjoy reading manga and watching K-pop, makeup, and fashion videos. Please feel free to reach out to chat!
               </p>
-              <img src={me} className='w-1/4 h-1/4 lg:w-1/5 lg:h-1/5 xl:w-1/5 xl:h-1/5 mb-0 mt-10 sm:ml-20 md:ml-20 lg:ml-20 xl:ml-20'></img>
+              <img src={me} className='rounded-md w-1/4 h-1/4 lg:w-1/5 lg:h-1/5 xl:w-1/5 xl:h-1/5 mb-0 mt-10 sm:ml-20 md:ml-20 lg:ml-20 xl:ml-20'></img>
 
             </div>
           </div>
