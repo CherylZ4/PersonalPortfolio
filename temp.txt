@@ -1,0 +1,2097 @@
+
+app/imgs:
+total 8368
+
+node_modules/@aashutoshrathi:
+total 0
+
+node_modules/@alloc:
+total 0
+
+node_modules/@ampproject:
+total 0
+
+node_modules/@gar:
+total 0
+
+node_modules/@headlessui:
+total 0
+
+node_modules/@jspm:
+total 0
+
+node_modules/@heroicons:
+total 0
+
+node_modules/@nicolo-ribaudo:
+total 0
+
+node_modules/@rushstack:
+total 0
+
+node_modules/@szmarczak:
+total 0
+
+node_modules/@sindresorhus:
+total 0
+
+node_modules/@tootallnate:
+total 0
+
+node_modules/@testing-library:
+total 0
+
+node_modules/@zxing:
+total 0
+
+node_modules/@web3-storage:
+total 0
+
+node_modules/@eslint-community:
+total 0
+
+node_modules/@babel:
+total 0
+
+node_modules/@eslint:
+total 0
+
+node_modules/@humanwhocodes:
+total 0
+
+node_modules/@netlify:
+total 0
+
+node_modules/@npmcli:
+total 0
+
+node_modules/@jridgewell:
+total 0
+
+node_modules/@nodelib:
+total 0
+
+node_modules/@remix-run:
+total 0
+
+node_modules/@vanilla-extract:
+total 0
+
+node_modules/@typescript-eslint:
+total 0
+
+node_modules/@rollup:
+total 0
+
+node_modules/which-collection:
+total 40
+
+node_modules/wrap-ansi:
+total 40
+
+node_modules/wrappy:
+total 32
+
+node_modules/yallist:
+total 64
+
+node_modules/zwitch:
+total 48
+
+node_modules/yocto-queue:
+total 40
+
+node_modules/whatwg-url:
+total 32
+
+node_modules/xtend:
+total 48
+
+node_modules/webidl-conversions:
+total 32
+
+node_modules/which-builtin-type:
+total 56
+
+node_modules/which:
+total 40
+
+node_modules/vfile-message:
+total 48
+
+node_modules/utils-merge:
+total 32
+
+node_modules/universalify:
+total 32
+
+node_modules/unpipe:
+total 40
+
+node_modules/vary:
+total 40
+
+node_modules/which-boxed-primitive:
+total 48
+
+node_modules/util-deprecate:
+total 48
+
+node_modules/wcwidth:
+total 40
+
+node_modules/unist-util-visit:
+total 64
+
+node_modules/unist-util-stringify-position:
+total 48
+
+node_modules/update-browserslist-db:
+total 80
+
+node_modules/which-typed-array:
+total 72
+
+node_modules/unique-slug:
+total 32
+
+node_modules/unist-util-remove-position:
+total 48
+
+node_modules/unicode-property-aliases-ecmascript:
+total 32
+
+node_modules/util:
+total 64
+
+node_modules/unicode-match-property-ecmascript:
+total 32
+
+node_modules/unist-util-is:
+total 56
+
+node_modules/unist-builder:
+total 48
+
+node_modules/unist-util-position:
+total 48
+
+node_modules/unist-util-generated:
+total 48
+
+node_modules/scheduler:
+total 48
+
+node_modules/unicode-canonical-property-names-ecmascript:
+total 32
+
+node_modules/unist-util-position-from-estree:
+total 48
+
+node_modules/unified:
+total 160
+
+node_modules/unist-util-visit-parents:
+total 64
+
+node_modules/type-is:
+total 64
+
+node_modules/ufo:
+total 32
+
+node_modules/unicode-match-property-value-ecmascript:
+total 32
+
+node_modules/ts-interface-checker:
+total 48
+
+node_modules/to-fast-properties:
+total 32
+
+node_modules/uvu:
+total 40
+
+node_modules/type-check:
+total 40
+
+node_modules/vfile:
+total 80
+
+node_modules/tmp:
+total 40
+
+node_modules/to-regex-range:
+total 64
+
+node_modules/ws:
+total 64
+
+node_modules/typed-array-length:
+total 48
+
+node_modules/toidentifier:
+total 40
+
+node_modules/tr46:
+total 24
+
+node_modules/through2:
+total 40
+
+node_modules/typed-array-buffer:
+total 40
+
+node_modules/unbox-primitive:
+total 48
+
+node_modules/trough:
+total 56
+
+node_modules/tiny-warning:
+total 24
+
+node_modules/typed-array-byte-length:
+total 40
+
+node_modules/thenify:
+total 40
+
+node_modules/typed-array-byte-offset:
+total 40
+
+node_modules/unique-filename:
+total 32
+
+node_modules/supports-color:
+total 40
+
+node_modules/tar-stream:
+total 96
+
+node_modules/thenify-all:
+total 40
+
+node_modules/text-table:
+total 32
+
+node_modules/through:
+total 40
+
+node_modules/tiny-invariant:
+total 32
+
+node_modules/vite-node:
+total 40
+
+node_modules/type-fest:
+total 104
+
+node_modules/supports-preserve-symlinks-flag:
+total 48
+
+node_modules/strip-ansi:
+total 40
+
+node_modules/strip-bom:
+total 32
+
+node_modules/toml:
+total 56
+
+node_modules/strip-final-newline:
+total 32
+
+node_modules/string-width:
+total 40
+
+node_modules/string_decoder:
+total 24
+
+node_modules/style-to-object:
+total 48
+
+node_modules/stream-slice:
+total 32
+
+node_modules/stream-shift:
+total 40
+
+node_modules/strip-json-comments:
+total 40
+
+node_modules/tslib:
+total 216
+
+node_modules/space-separated-tokens:
+total 40
+
+node_modules/string-hash:
+total 40
+
+node_modules/statuses:
+total 48
+
+node_modules/sort-object-keys:
+total 24
+
+node_modules/slash:
+total 40
+
+node_modules/ssri:
+total 112
+
+node_modules/sort-package-json:
+total 64
+
+node_modules/string.prototype.trimstart:
+total 88
+
+node_modules/signal-exit:
+total 48
+
+node_modules/react:
+total 56
+
+node_modules/string.prototype.matchall:
+total 104
+
+node_modules/setprototypeof:
+total 40
+
+node_modules/tapable:
+total 56
+
+node_modules/string.prototype.trimend:
+total 88
+
+node_modules/stop-iteration-iterator:
+total 40
+
+node_modules/shebang-regex:
+total 40
+
+node_modules/string.prototype.trim:
+total 104
+
+node_modules/source-map-support:
+total 208
+
+node_modules/set-cookie-parser:
+total 32
+
+node_modules/stringify-entities:
+total 48
+
+node_modules/side-channel:
+total 48
+
+node_modules/serve-static:
+total 72
+
+node_modules/socks-proxy-agent:
+total 16
+
+node_modules/safe-buffer:
+total 88
+
+node_modules/run-parallel:
+total 32
+
+node_modules/run-async:
+total 32
+
+node_modules/tar:
+total 120
+
+node_modules/safe-regex-test:
+total 40
+
+node_modules/restore-cursor:
+total 40
+
+node_modules/shebang-command:
+total 32
+
+node_modules/send:
+total 128
+
+node_modules/safer-buffer:
+total 120
+
+node_modules/responselike:
+total 24
+
+node_modules/safe-array-concat:
+total 40
+
+node_modules/requireindex:
+total 24
+
+node_modules/sade:
+total 64
+
+node_modules/reusify:
+total 40
+
+node_modules/resolve-from:
+total 32
+
+node_modules/rimraf:
+total 64
+
+node_modules/resolve.exports:
+total 56
+
+node_modules/resolve-pkg-maps:
+total 32
+
+node_modules/tsconfig-paths:
+total 80
+
+node_modules/smart-buffer:
+total 56
+
+node_modules/remark-frontmatter:
+total 56
+
+node_modules/resolve-alpn:
+total 32
+
+node_modules/remark-parse:
+total 64
+
+node_modules/tar-fs:
+total 56
+
+node_modules/remark-mdx-frontmatter:
+total 24
+
+node_modules/remark-rehype:
+total 48
+
+node_modules/uri-js:
+total 240
+
+node_modules/require-like:
+total 32
+
+node_modules/read-cache:
+total 32
+
+node_modules/react-router:
+total 64
+
+node_modules/regjsparser:
+total 144
+
+node_modules/regenerator-runtime:
+total 88
+
+node_modules/readdirp:
+total 64
+
+node_modules/source-map:
+total 112
+
+node_modules/regexpu-core:
+total 88
+
+node_modules/source-map-js:
+total 112
+
+node_modules/range-parser:
+total 40
+
+node_modules/react-router-dom:
+total 128
+
+node_modules/regenerate:
+total 120
+
+node_modules/queue-microtask:
+total 48
+
+node_modules/quick-lru:
+total 40
+
+node_modules/xdm:
+total 240
+
+node_modules/promise-inflight:
+total 32
+
+node_modules/process-nextick-args:
+total 32
+
+node_modules/reflect.getprototypeof:
+total 88
+
+node_modules/raw-body:
+total 80
+
+node_modules/pump:
+total 48
+
+node_modules/pumpify:
+total 48
+
+node_modules/proxy-addr:
+total 56
+
+node_modules/pretty-ms:
+total 40
+
+node_modules/punycode:
+total 96
+
+node_modules/postcss-modules-values:
+total 32
+
+node_modules/postcss-modules-scope:
+total 32
+
+node_modules/postcss-nested:
+total 56
+
+node_modules/react-refresh:
+total 40
+
+node_modules/proxy-from-env:
+total 80
+
+node_modules/regexp.prototype.flags:
+total 112
+
+node_modules/proxy-agent:
+total 16
+
+node_modules/postcss-modules-extract-imports:
+total 32
+
+node_modules/postcss-modules-local-by-default:
+total 24
+
+node_modules/postcss-load-config:
+total 40
+
+node_modules/pkg-types:
+total 24
+
+node_modules/pify:
+total 32
+
+node_modules/postcss-value-parser:
+total 32
+
+node_modules/pirates:
+total 32
+
+node_modules/path2d-polyfill:
+total 40
+
+node_modules/regexpp:
+total 616
+
+node_modules/picocolors:
+total 56
+
+node_modules/periscopic:
+total 24
+
+node_modules/path-parse:
+total 32
+
+node_modules/postcss-js:
+total 80
+
+node_modules/peek-stream:
+total 48
+
+node_modules/prelude-ls:
+total 40
+
+node_modules/prop-types:
+total 224
+
+node_modules/postcss-discard-duplicates:
+total 24
+
+node_modules/path-is-absolute:
+total 32
+
+node_modules/regenerator-transform:
+total 24
+
+node_modules/path-key:
+total 40
+
+node_modules/parse-ms:
+total 40
+
+node_modules/path-to-regexp:
+total 40
+
+node_modules/parseurl:
+total 40
+
+node_modules/path-type:
+total 40
+
+node_modules/postcss-modules:
+total 56
+
+node_modules/tsutils:
+total 96
+
+node_modules/pidtree:
+total 48
+
+node_modules/parent-module:
+total 32
+
+node_modules/picomatch:
+total 96
+
+node_modules/pretty-format:
+total 48
+
+node_modules/path-exists:
+total 40
+
+node_modules/postcss-import:
+total 64
+
+node_modules/p-limit:
+total 40
+
+node_modules/p-map:
+total 40
+
+node_modules/os-tmpdir:
+total 32
+
+node_modules/p-locate:
+total 40
+
+node_modules/onetime:
+total 40
+
+node_modules/readable-stream:
+total 104
+
+node_modules/p-cancelable:
+total 56
+
+node_modules/ora:
+total 72
+
+node_modules/parse-entities:
+total 48
+
+node_modules/socks:
+total 64
+
+node_modules/once:
+total 32
+
+node_modules/on-headers:
+total 40
+
+node_modules/on-finished:
+total 56
+
+node_modules/pathe:
+total 32
+
+node_modules/qs:
+total 128
+
+node_modules/pac-proxy-agent:
+total 16
+
+node_modules/semver:
+total 88
+
+node_modules/normalize-path:
+total 40
+
+node_modules/normalize-url:
+total 64
+
+node_modules/object-assign:
+total 32
+
+node_modules/property-information:
+total 160
+
+node_modules/optionator:
+total 56
+
+node_modules/natural-compare-lite:
+total 24
+
+node_modules/npm-run-path:
+total 40
+
+node_modules/object-keys:
+total 64
+
+node_modules/object.groupby:
+total 72
+
+node_modules/object.fromentries:
+total 80
+
+node_modules/outdent:
+total 72
+
+node_modules/object.hasown:
+total 88
+
+node_modules/natural-compare:
+total 24
+
+node_modules/object-hash:
+total 64
+
+node_modules/node-releases:
+total 24
+
+node_modules/negotiator:
+total 48
+
+node_modules/object-is:
+total 96
+
+node_modules/mute-stream:
+total 32
+
+node_modules/ms:
+total 32
+
+node_modules/mri:
+total 40
+
+node_modules/node-fetch:
+total 72
+
+node_modules/object.entries:
+total 104
+
+node_modules/morgan:
+total 80
+
+node_modules/object.values:
+total 104
+
+node_modules/mkdirp-classic:
+total 32
+
+node_modules/netmask:
+total 32
+
+node_modules/mrmime:
+total 96
+
+node_modules/minipass-flush:
+total 32
+
+node_modules/web-encoding:
+total 16
+
+node_modules/postcss:
+total 24
+
+node_modules/minipass-pipeline:
+total 32
+
+node_modules/mz:
+total 88
+
+node_modules/mimic-response:
+total 32
+
+node_modules/micromark-util-types:
+total 88
+
+node_modules/minipass:
+total 128
+
+node_modules/micromatch:
+total 128
+
+node_modules/minipass-collect:
+total 32
+
+node_modules/mime-types:
+total 56
+
+node_modules/mimic-fn:
+total 40
+
+node_modules/minizlib:
+total 56
+
+node_modules/micromark-util-encode:
+total 40
+
+node_modules/mkdirp:
+total 56
+
+node_modules/postcss-selector-parser:
+total 160
+
+node_modules/micromark-util-normalize-identifier:
+total 40
+
+node_modules/mlly:
+total 40
+
+node_modules/micromark-util-html-tag-name:
+total 40
+
+node_modules/recast:
+total 64
+
+node_modules/micromark-util-decode-string:
+total 40
+
+node_modules/mime:
+total 128
+
+node_modules/nanoid:
+total 72
+
+node_modules/micromark-util-sanitize-uri:
+total 40
+
+node_modules/object-inspect:
+total 152
+
+node_modules/pako:
+total 48
+
+node_modules/micromark-util-resolve-all:
+total 40
+
+node_modules/micromark-util-combine-extensions:
+total 40
+
+node_modules/micromark-util-subtokenize:
+total 48
+
+node_modules/pac-resolver:
+total 16
+
+node_modules/micromark-util-classify-character:
+total 40
+
+node_modules/micromark-factory-title:
+total 40
+
+node_modules/micromark-factory-whitespace:
+total 40
+
+node_modules/micromark-util-chunked:
+total 40
+
+node_modules/micromark-util-decode-numeric-character-reference:
+total 40
+
+node_modules/micromark-extension-mdx-md:
+total 48
+
+node_modules/micromark-util-events-to-acorn:
+total 64
+
+node_modules/minimist:
+total 88
+
+node_modules/micromark-util-symbol:
+total 120
+
+node_modules/micromark-factory-space:
+total 40
+
+node_modules/micromark-factory-mdx-expression:
+total 56
+
+node_modules/mime-db:
+total 432
+
+node_modules/micromark-extension-mdxjs:
+total 56
+
+node_modules/merge2:
+total 32
+
+node_modules/micromark-factory-label:
+total 40
+
+node_modules/methods:
+total 40
+
+node_modules/micromark-factory-destination:
+total 48
+
+node_modules/media-typer:
+total 48
+
+node_modules/merge-descriptors:
+total 40
+
+node_modules/micromark-extension-mdx-expression:
+total 48
+
+node_modules/micromark-util-character:
+total 56
+
+node_modules/merge-stream:
+total 32
+
+node_modules/merge-refs:
+total 24
+
+node_modules/micromark-extension-mdxjs-esm:
+total 56
+
+node_modules/mdast-util-phrasing:
+total 48
+
+node_modules/mdast-util-to-string:
+total 48
+
+node_modules/mdurl:
+total 88
+
+node_modules/mdast-util-mdx-jsx:
+total 88
+
+node_modules/mdast-util-frontmatter:
+total 56
+
+node_modules/mdast-util-mdxjs-esm:
+total 64
+
+node_modules/mdast-util-definitions:
+total 48
+
+node_modules/micromark-extension-mdx-jsx:
+total 72
+
+node_modules/react-scroll:
+total 40
+
+node_modules/micromark-extension-frontmatter:
+total 72
+
+node_modules/mdast-util-mdx:
+total 56
+
+node_modules/markdown-extensions:
+total 40
+
+node_modules/longest-streak:
+total 40
+
+node_modules/lru-cache:
+total 48
+
+node_modules/lowercase-keys:
+total 40
+
+node_modules/lodash.debounce:
+total 48
+
+node_modules/loose-envify:
+total 64
+
+node_modules/mdast-util-mdx-expression:
+total 72
+
+node_modules/lodash.camelcase:
+total 64
+
+node_modules/locate-path:
+total 40
+
+node_modules/lines-and-columns:
+total 24
+
+node_modules/mdast-util-from-markdown:
+total 64
+
+node_modules/make-event-props:
+total 24
+
+node_modules/make-cancellable-promise:
+total 24
+
+node_modules/keyv:
+total 40
+
+node_modules/lodash.throttle:
+total 56
+
+node_modules/minimatch:
+total 56
+
+node_modules/lodash.merge:
+total 128
+
+node_modules/log-symbols:
+total 48
+
+node_modules/json-buffer:
+total 32
+
+node_modules/local-pkg:
+total 48
+
+node_modules/lilconfig:
+total 24
+
+node_modules/language-tags:
+total 40
+
+node_modules/levn:
+total 40
+
+node_modules/jsonfile:
+total 72
+
+node_modules/json-schema-traverse:
+total 32
+
+node_modules/kleur:
+total 80
+
+node_modules/isexe:
+total 48
+
+node_modules/json-parse-even-better-errors:
+total 40
+
+node_modules/media-query-parser:
+total 16
+
+node_modules/isarray:
+total 32
+
+node_modules/object.assign:
+total 2248
+
+node_modules/js-tokens:
+total 56
+
+node_modules/json-stable-stringify-without-jsonify:
+total 32
+
+node_modules/loader-utils:
+total 32
+
+node_modules/is-unicode-supported:
+total 40
+
+node_modules/jsesc:
+total 64
+
+node_modules/iterator.prototype:
+total 40
+
+node_modules/isbot:
+total 160
+
+node_modules/is-weakref:
+total 48
+
+node_modules/is-weakmap:
+total 40
+
+node_modules/is-promise:
+total 48
+
+node_modules/is-gzip:
+total 24
+
+node_modules/is-path-inside:
+total 40
+
+node_modules/is-plain-obj:
+total 40
+
+node_modules/is-extglob:
+total 32
+
+node_modules/is-reference:
+total 16
+
+node_modules/is-glob:
+total 40
+
+node_modules/is-weakset:
+total 48
+
+node_modules/is-stream:
+total 40
+
+node_modules/is-hexadecimal:
+total 40
+
+node_modules/is-fullwidth-code-point:
+total 40
+
+node_modules/is-interactive:
+total 40
+
+node_modules/json5:
+total 40
+
+node_modules/is-typed-array:
+total 48
+
+node_modules/is-symbol:
+total 64
+
+node_modules/is-string:
+total 56
+
+node_modules/is-set:
+total 48
+
+node_modules/is-shared-array-buffer:
+total 48
+
+node_modules/lz-string:
+total 32
+
+node_modules/is-buffer:
+total 40
+
+node_modules/is-decimal:
+total 40
+
+node_modules/is-number:
+total 40
+
+node_modules/is-finalizationregistry:
+total 48
+
+node_modules/is-number-object:
+total 64
+
+node_modules/is-negative-zero:
+total 64
+
+node_modules/is-regex:
+total 72
+
+node_modules/mdast-util-to-hast:
+total 64
+
+node_modules/javascript-stringify:
+total 24
+
+node_modules/is-deflate:
+total 32
+
+node_modules/is-alphanumerical:
+total 40
+
+node_modules/is-map:
+total 48
+
+node_modules/is-alphabetical:
+total 40
+
+node_modules/is-generator-function:
+total 80
+
+node_modules/inflight:
+total 32
+
+node_modules/ip:
+total 16
+
+node_modules/is-arguments:
+total 72
+
+node_modules/is-boolean-object:
+total 64
+
+node_modules/is-async-function:
+total 56
+
+node_modules/indent-string:
+total 40
+
+node_modules/is-binary-path:
+total 40
+
+node_modules/infer-owner:
+total 32
+
+node_modules/inline-style-parser:
+total 48
+
+node_modules/is-array-buffer:
+total 40
+
+node_modules/is-core-module:
+total 80
+
+node_modules/is-date-object:
+total 64
+
+node_modules/inherits:
+total 40
+
+node_modules/ieee754:
+total 40
+
+node_modules/micromark:
+total 80
+
+node_modules/imurmurhash:
+total 48
+
+node_modules/import-fresh:
+total 40
+
+node_modules/internal-slot:
+total 56
+
+node_modules/http-cache-semantics:
+total 88
+
+node_modules/rollup:
+total 112
+
+node_modules/http-errors:
+total 56
+
+node_modules/is-bigint:
+total 48
+
+node_modules/icss-utils:
+total 32
+
+node_modules/hast-util-whitespace:
+total 48
+
+node_modules/ignore:
+total 120
+
+node_modules/is-callable:
+total 56
+
+node_modules/ipaddr.js:
+total 64
+
+node_modules/has:
+total 24
+
+node_modules/typeface-inter:
+total 48
+
+node_modules/has-proto:
+total 40
+
+node_modules/node-addon-api:
+total 576
+
+node_modules/human-signals:
+total 56
+
+node_modules/jsonc-parser:
+total 64
+
+node_modules/js-yaml:
+total 88
+
+node_modules/gunzip-maybe:
+total 48
+
+node_modules/http2-wrapper:
+total 48
+
+node_modules/has-tostringtag:
+total 48
+
+node_modules/has-property-descriptors:
+total 40
+
+node_modules/has-flag:
+total 40
+
+node_modules/https-proxy-agent:
+total 16
+
+node_modules/http-proxy-agent:
+total 24
+
+node_modules/micromark-core-commonmark:
+total 40
+
+node_modules/graceful-fs:
+total 104
+
+node_modules/glob-parent:
+total 56
+
+node_modules/git-hooks-list:
+total 32
+
+node_modules/glob:
+total 128
+
+node_modules/mdast-util-to-markdown:
+total 88
+
+node_modules/react-pdf:
+total 144
+
+node_modules/has-symbols:
+total 56
+
+node_modules/vite:
+total 368
+
+node_modules/globby:
+total 80
+
+node_modules/gopd:
+total 40
+
+node_modules/get-port:
+total 40
+
+node_modules/resolve:
+total 72
+
+node_modules/globals:
+total 104
+
+node_modules/get-tsconfig:
+total 32
+
+node_modules/globalthis:
+total 96
+
+node_modules/hast-util-to-estree:
+total 64
+
+node_modules/yaml:
+total 40
+
+node_modules/fs.realpath:
+total 56
+
+node_modules/get-intrinsic:
+total 80
+
+node_modules/generic-names:
+total 48
+
+node_modules/fresh:
+total 40
+
+node_modules/fs-minipass:
+total 48
+
+node_modules/get-symbol-description:
+total 48
+
+node_modules/get-stream:
+total 56
+
+node_modules/has-bigints:
+total 48
+
+node_modules/fs-constants:
+total 40
+
+node_modules/functions-have-names:
+total 56
+
+node_modules/find-up:
+total 40
+
+node_modules/gensync:
+total 64
+
+node_modules/forwarded:
+total 40
+
+node_modules/inquirer:
+total 64
+
+node_modules/function-bind:
+total 40
+
+node_modules/format:
+total 56
+
+node_modules/finalhandler:
+total 72
+
+node_modules/iconv-lite:
+total 48
+
+node_modules/fill-range:
+total 48
+
+node_modules/get-uri:
+total 24
+
+node_modules/function.prototype.name:
+total 88
+
+node_modules/file-uri-to-path:
+total 48
+
+node_modules/figures:
+total 48
+
+node_modules/exit-hook:
+total 40
+
+node_modules/fault:
+total 48
+
+node_modules/flat-cache:
+total 64
+
+node_modules/fsevents:
+total 216
+
+node_modules/sucrase:
+total 48
+
+node_modules/file-entry-cache:
+total 72
+
+node_modules/external-editor:
+total 48
+
+node_modules/esutils:
+total 32
+
+node_modules/extend:
+total 48
+
+node_modules/fast-deep-equal:
+total 56
+
+node_modules/for-each:
+total 32
+
+node_modules/event-target-shim:
+total 64
+
+node_modules/got:
+total 192
+
+node_modules/etag:
+total 48
+
+node_modules/flatted:
+total 72
+
+node_modules/fast-json-stable-stringify:
+total 40
+
+node_modules/execa:
+total 112
+
+node_modules/estree-util-value-to-estree:
+total 32
+
+node_modules/fast-levenshtein:
+total 32
+
+node_modules/eval:
+total 48
+
+node_modules/esrecurse:
+total 48
+
+node_modules/estree-util-is-identifier-name:
+total 64
+
+node_modules/estree-walker:
+total 24
+
+node_modules/estraverse:
+total 96
+
+node_modules/language-subtag-registry:
+total 16
+
+node_modules/estree-util-visit:
+total 56
+
+node_modules/estree-util-attach-comments:
+total 48
+
+node_modules/esprima:
+total 56
+
+node_modules/estree-util-build-jsx:
+total 56
+
+node_modules/graphemer:
+total 40
+
+node_modules/eslint-import-resolver-node:
+total 32
+
+node_modules/eslint-visitor-keys:
+total 48
+
+node_modules/escape-string-regexp:
+total 40
+
+node_modules/fs-extra:
+total 40
+
+node_modules/eslint-plugin-react-hooks:
+total 32
+
+node_modules/escape-html:
+total 32
+
+node_modules/jiti:
+total 32
+
+node_modules/espree:
+total 56
+
+node_modules/jsx-ast-utils:
+total 144
+
+node_modules/fastq:
+total 88
+
+node_modules/escalade:
+total 40
+
+node_modules/escodegen:
+total 216
+
+node_modules/es-set-tostringtag:
+total 40
+
+node_modules/fast-glob:
+total 64
+
+node_modules/eslint-scope:
+total 32
+
+node_modules/end-of-stream:
+total 32
+
+node_modules/express:
+total 264
+
+node_modules/eslint-module-utils:
+total 160
+
+node_modules/encodeurl:
+total 40
+
+node_modules/es-shim-unscopables:
+total 40
+
+node_modules/eslint-plugin-jest-dom:
+total 48
+
+node_modules/eslint-utils:
+total 696
+
+node_modules/eslint-import-resolver-typescript:
+total 48
+
+node_modules/ee-first:
+total 32
+
+node_modules/dir-glob:
+total 32
+
+node_modules/emojis-list:
+total 128
+
+node_modules/didyoumean:
+total 64
+
+node_modules/detect-newline:
+total 40
+
+node_modules/duplexify:
+total 64
+
+node_modules/detect-indent:
+total 48
+
+node_modules/es-to-primitive:
+total 72
+
+node_modules/dlv:
+total 24
+
+node_modules/react-dom:
+total 80
+
+node_modules/destroy:
+total 40
+
+node_modules/es-get-iterator:
+total 80
+
+node_modules/defaults:
+total 40
+
+node_modules/defer-to-connect:
+total 24
+
+node_modules/dotenv:
+total 152
+
+node_modules/esbuild-plugins-node-modules-polyfill:
+total 56
+
+node_modules/depd:
+total 72
+
+node_modules/decode-named-character-reference:
+total 56
+
+node_modules/data-uri-to-buffer:
+total 16
+
+node_modules/debug:
+total 64
+
+node_modules/define-properties:
+total 40
+
+node_modules/deep-is:
+total 32
+
+node_modules/doctrine:
+total 96
+
+node_modules/dequal:
+total 40
+
+node_modules/damerau-levenshtein:
+total 40
+
+node_modules/cookie:
+total 56
+
+node_modules/emoji-regex:
+total 152
+
+node_modules/decompress-response:
+total 40
+
+node_modules/core-util-is:
+total 24
+
+node_modules/deepmerge:
+total 80
+
+node_modules/convert-source-map:
+total 48
+
+node_modules/cssesc:
+total 40
+
+node_modules/deep-equal:
+total 128
+
+node_modules/degenerator:
+total 16
+
+node_modules/cross-spawn:
+total 56
+
+node_modules/electron-to-chromium:
+total 552
+
+node_modules/content-disposition:
+total 64
+
+node_modules/cookie-signature:
+total 40
+
+node_modules/content-type:
+total 48
+
+node_modules/color-name:
+total 40
+
+node_modules/cross-env:
+total 64
+
+node_modules/compression:
+total 64
+
+node_modules/client-only:
+total 16
+
+node_modules/concat-map:
+total 32
+
+node_modules/clone:
+total 48
+
+node_modules/comma-separated-tokens:
+total 48
+
+node_modules/compressible:
+total 40
+
+node_modules/eslint-plugin-testing-library:
+total 136
+
+node_modules/cli-cursor:
+total 40
+
+node_modules/chownr:
+total 40
+
+node_modules/clsx:
+total 40
+
+node_modules/color-convert:
+total 88
+
+node_modules/deep-object-diff:
+total 40
+
+node_modules/clean-stack:
+total 40
+
+node_modules/chardet:
+total 40
+
+node_modules/commander:
+total 184
+
+node_modules/cli-spinners:
+total 96
+
+node_modules/csstype:
+total 2392
+
+node_modules/clone-response:
+total 24
+
+node_modules/css-what:
+total 32
+
+node_modules/character-entities-html4:
+total 48
+
+node_modules/callsites:
+total 40
+
+node_modules/character-reference-invalid:
+total 48
+
+node_modules/character-entities-legacy:
+total 48
+
+node_modules/esquery:
+total 160
+
+node_modules/cli-width:
+total 40
+
+node_modules/chalk:
+total 72
+
+node_modules/character-entities:
+total 112
+
+node_modules/cacheable-request:
+total 32
+
+node_modules/cacheable-lookup:
+total 48
+
+node_modules/chokidar:
+total 104
+
+node_modules/bytes:
+total 40
+
+node_modules/buffer-from:
+total 32
+
+node_modules/bindings:
+total 40
+
+node_modules/call-bind:
+total 48
+
+node_modules/dom-accessibility-api:
+total 40
+
+node_modules/enhanced-resolve:
+total 72
+
+node_modules/brace-expansion:
+total 48
+
+node_modules/camelcase-css:
+total 40
+
+node_modules/basic-auth:
+total 40
+
+node_modules/base64-js:
+total 48
+
+node_modules/buffer:
+total 192
+
+node_modules/balanced-match:
+total 32
+
+node_modules/browserslist:
+total 184
+
+node_modules/binary-extensions:
+total 56
+
+node_modules/browserify-zlib:
+total 16
+
+node_modules/bail:
+total 40
+
+node_modules/diff:
+total 96
+
+node_modules/big.js:
+total 152
+
+node_modules/eslint-plugin-node:
+total 40
+
+node_modules/babel-plugin-polyfill-regenerator:
+total 24
+
+node_modules/ast-types-flow:
+total 16
+
+node_modules/cacache:
+total 120
+
+node_modules/bl:
+total 80
+
+node_modules/braces:
+total 96
+
+node_modules/cac:
+total 72
+
+node_modules/body-parser:
+total 104
+
+node_modules/core-js-compat:
+total 1432
+
+node_modules/asynciterator.prototype:
+total 40
+
+node_modules/array-union:
+total 40
+
+node_modules/available-typed-arrays:
+total 48
+
+node_modules/array-flatten:
+total 32
+
+node_modules/arg:
+total 56
+
+node_modules/anymatch:
+total 40
+
+node_modules/ansi-styles:
+total 64
+
+node_modules/array.prototype.flat:
+total 80
+
+node_modules/babel-plugin-polyfill-corejs2:
+total 24
+
+node_modules/array.prototype.tosorted:
+total 72
+
+node_modules/arraybuffer.prototype.slice:
+total 72
+
+node_modules/ansi-escapes:
+total 56
+
+node_modules/array.prototype.findlastindex:
+total 88
+
+node_modules/aggregate-error:
+total 40
+
+node_modules/abort-controller:
+total 56
+
+node_modules/eslint-plugin-es:
+total 24
+
+node_modules/ahocorasick:
+total 88
+
+node_modules/ansi-regex:
+total 40
+
+node_modules/argparse:
+total 320
+
+node_modules/array-buffer-byte-length:
+total 40
+
+node_modules/accepts:
+total 64
+
+node_modules/acorn-jsx:
+total 80
+
+node_modules/array-includes:
+total 80
+
+node_modules/astring:
+total 48
+
+node_modules/array.prototype.flatmap:
+total 80
+
+node_modules/babel-plugin-polyfill-corejs3:
+total 24
+
+node_modules/agent-base:
+total 16
+
+node_modules/basic-ftp:
+total 40
+
+node_modules/es-iterator-helpers:
+total 96
+
+node_modules/acorn:
+total 80
+
+node_modules/any-promise:
+total 112
+
+node_modules/eslint-plugin-jest:
+total 64
+
+node_modules/web-streams-polyfill:
+total 32
+
+node_modules/ast-types:
+total 112
+
+node_modules/eslint-plugin-react:
+total 104
+
+node_modules/regenerate-unicode-properties:
+total 48
+
+node_modules/eslint-plugin-import:
+total 320
+
+node_modules/axobject-query:
+total 88
+
+node_modules/prettier:
+total 13624
+
+node_modules/ajv:
+total 184
+
+node_modules/axe-core:
+total 3392
+
+node_modules/aria-query:
+total 48
+
+node_modules/eslint-plugin-jsx-a11y:
+total 136
+
+node_modules/tailwindcss:
+total 432
+
+node_modules/eslint:
+total 64
+
+node_modules/lodash:
+total 6592
+
+node_modules/caniuse-lite:
+total 56
+
+node_modules/es-abstract:
+total 336
+
+node_modules/pdfjs-dist:
+total 56
+
+node_modules/typescript:
+total 128
+
+node_modules/rxjs:
+total 584
+
+node_modules/deasync:
+total 72
+
+node_modules/esbuild:
+total 48
+
+node_modules/react-is:
+total 40
+
+node_modules/@types:
+total 0
+
+node_modules/@emotion:
+total 0
+
+node_modules/framer-motion:
+total 32
+
+node_modules/react-intersection-observer:
+total 240
+
+public/pdf:
+total 160
+
+node_modules/@esbuild:
+total 0
+
+node_modules/@mapbox:
+total 0
+
+app/routes:
+total 40
+
+public/build:
+total 296

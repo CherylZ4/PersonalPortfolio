@@ -7,7 +7,7 @@ import { motion, Variants } from "framer-motion";
 
 export default function Projects() {
   return (
-    <div className="scrollable-container h-[2400]px sm:h-[2100px] md:h-[1600px] lg:h-[1200px] xl:h-[1200px] overflow-y-scroll relative">
+    <div className="scrollable-container h-[2400px] sm:h-[2100px] md:h-[1600px] lg:h-[1200px] xl:h-[1200px] overflow-y-scroll relative">
       <div
         className="h-full bg-cover bg-center flex flex-col items-start justify-start px-4"
         style={{ backgroundImage: `url(${backgroundImage})` }}
@@ -17,16 +17,15 @@ export default function Projects() {
             to="/"
             className=" text-custom-gray hover:text-custom-hover font-inter text-lg"
           >
-            {" "}
             home
           </Link>
           <Link
             to="/projects"
             className="  text-custom-gray hover:text-custom-hover font-inter text-lg"
           >
-            {" "}
             projects
           </Link>
+          <Link to="/work" className="text-custom-gray hover:text-custom-hover font-inter text-lg">work</Link>
         </div>
         <motion.div
           initial="hide"

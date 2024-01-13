@@ -23,12 +23,12 @@ export default function Index() {
     setTimeout(() => setIsVisible((prev) => ({ ...prev, arrow: true })), 2000);
   }, []);
 
-  
+
 
 
   return (
 
-    <div className="scrollable-container h-[1600px] overflow-y-scroll relative sm:max-h-[1400px] md:max-h-[1400px] lg:max-h-[1400px] xl:max-h-[1480px]">
+    <div className="scrollable-container h-[1600px] overflow-y-scroll relative">
       <div className="h-full bg-cover bg-center flex flex-col items-start px-4"
 
         style={{ backgroundImage: `url(${backgroundImage})` }} >
@@ -53,11 +53,6 @@ export default function Index() {
           <img src={rectangle} className="pr-20" />
         </div>
 
-        <div className={` sm:ml-64 md:ml-96 lg:ml-96 xl:ml-96 ${isVisible.arrow ? 'opacity-100 transition-opacity duration-500 ease-in' : 'opacity-0'
-          }`}>
-          <img src={arrow} className="ml-36 mt-20 xl:ml-44"></img>
-        </div>
-
 
 
         <motion.div
@@ -65,59 +60,56 @@ export default function Index() {
           whileInView="show"
           exit="hide"
           variants={fadeIn}
-          viewport={{once: true}} className="ml-5">
-          <div className="flex flex-col items-center justify-start ml-48 sm:ml-88 md:ml-80 lg:ml-96 xl:ml-96 mt-64 sm:mt-36 md:mt-36 lg:mt-20 xl:mt-20">
-          
-              <h1 className="text-custom-gray font-brygada-1918 text-3xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl font-medium lg:ml-32 xl:ml-40 lg:mt-16 xl:mt-16">About me</h1>
-             
-          </div>
-        </motion.div>
+          viewport={{ once: true }}>
 
+          <div className="flex flex-col items-center sm:mb-4 md:mb-4 lg:mb-4 xl:mb-4" >
+            <div className={`${isVisible.arrow ? 'opacity-100 transition-opacity duration-500 ease-in' : 'opacity-0'
+              }`}>
+              <img src={arrow} className=" mt-20 sm:mt-20 md:mt-28 lg:mt-36 mb-48"></img>
+            </div>
 
-        <motion.div
-          initial="hide"
-          whileInView="show"
-          exit="hide"
-          variants={fadeIn}
-          viewport={{once: true}}>
-       
-          <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-row xl:flex-row ml-6 sm:ml-20 md:ml-32 lg:ml-60 xl:ml-60 flex items-center md:mr-20 lg:mr-32 xl:mr-32">
-         
+            <p className="text-custom-gray font-brygada-1918 text-4xl ml-4 sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl font-medium lg:ml-32 xl:ml-40 lg:mt-12 xl:mt-12 ">About me</p>
+
+            <div className="flex-col-reverse sm:flex-row md:flex-row lg:flex-row xl:flex-row ml-6 sm:ml-20 md:ml-32 lg:ml-60 xl:ml-60 flex items-center md:mr-20 lg:mr-32 xl:mr-32">
               <p className="text-custom-gray font-brygada-1918 text-lg text-center mt-12 sm:mt-12 md:mt-12 lg:mt-8 xl:mt-0">
                 My name is Cheryl Zhang, and I am a HBSc Computer Science Co-op Student at the University of Toronto Scarborough. I am someone who embraces each new challenge as an opportunity to grow, and I'm excited to keep crafting innovative solutions that exceed expectations. In my spare time, I enjoy reading manga and watching K-pop, makeup, and fashion videos. Please feel free to reach out to chat!
               </p>
-              <img src={me} className='w-1/4 h-1/4 lg:w-1/5 lg:h-1/5 xl:w-1/5 xl:h-1/5 mb-0 md:mb-0 lg:mb-0 xl:mb-0 mt-10 sm:ml-20 md:ml-20 lg:ml-20 xl:ml-20'></img>
+              <img src={me} className='w-1/4 h-1/4 lg:w-1/5 lg:h-1/5 xl:w-1/5 xl:h-1/5 mb-0 mt-10 sm:ml-20 md:ml-20 lg:ml-20 xl:ml-20'></img>
+
+            </div>
           </div>
-         
-          </motion.div>
+
+        </motion.div>
 
 
         <div className="absolute top-6 right-16 flex space-x-8">
           <Link to="/" className=" text-custom-gray hover:text-custom-hover font-inter text-lg" > home</Link>
           <Link to="/projects" className="  text-custom-gray hover:text-custom-hover font-inter text-lg" > projects</Link>
+          <Link to="/work" className="text-custom-gray hover:text-custom-hover font-inter text-lg">work</Link>
         </div>
-        
+
         <motion.div
+
           initial="hide"
           whileInView="show"
           exit="hide"
           variants={fadeIn}
-          viewport={{once: true}} className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2">
-        
-            <div className=" flex items-center ml-18 sm:mr-3 md:mr-3 lg:mr-3 xl:mr-3 mb-8">
-              <p className="text-custom-gray font-brygada-1918 text-4xl font-semibold tracking-widest">get in touch!</p>
-            </div>
-            
+          viewport={{ once: true }} className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2">
+
+          <div className="flex items-center ml-18 sm:mr-3 md:mr-3 lg:mr-3 xl:mr-3 mb-8 ">
+            <p className="text-custom-gray font-brygada-1918 text-4xl font-semibold tracking-widest">get in touch!</p>
+          </div>
+
 
           <div className=" flex space-x-10 mb-4">
-          
-              <a href="https://www.linkedin.com/in/cheryl-zhang1/" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">linkedIn </a>
-              <a href="https://github.com/CherylZ4" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">github </a>
-              <a href="/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-custom-gray hover:text-custom-hover font-inter text-lg">resume</a>
-              
+
+            <a href="https://www.linkedin.com/in/cheryl-zhang1/" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">linkedIn </a>
+            <a href="https://github.com/CherylZ4" target="_blank" className="text-custom-gray hover:text-custom-hover font-inter text-lg">github </a>
+            <a href="/pdf/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-custom-gray hover:text-custom-hover font-inter text-lg">resume</a>
+
           </div>
-          </motion.div>
-        
+        </motion.div>
+
 
       </div>
     </div>

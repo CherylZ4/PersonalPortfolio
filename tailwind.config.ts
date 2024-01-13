@@ -12,7 +12,7 @@ export default {
         inter: ['Inter', 'san-serif'],
       },
       screens: {
-        'xs': '100px',
+        'xs': '300px',
         'sm': '640px',      // Small screens
         'md': '768px',      // Medium screens
         'lg': '1024px',     // Large screens
