@@ -7,7 +7,7 @@ import { motion, Variants } from "framer-motion";
 
 export default function Projects() {
   return (
-    <div className="scrollable-container h-[2800px] sm:h-[2400px] md:h-[2200px] lg:h-[1600px] xl:h-[1400px] overflow-y-scroll relative overflow-x:hidden">
+    <div className="scrollable-container h-[2400px] sm:h-[2300px] md:h-[2200px] lg:h-[1800px] xl:h-[1800px] overflow-y-scroll relative overflow-x:hidden">
       <div
         className="h-full bg-cover bg-center flex flex-col items-start px-4"
         style={{ backgroundImage: `url(${backgroundImage})` }}>
@@ -41,8 +41,8 @@ export default function Projects() {
               <p className="text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-1 mr-6 ml-10">
                 Speech Summarizer
               </p>
-              <h1 className="ml-10 max-w-xxs w-1/2 xs:max-w-xxs xs:w-2/3 max-w-xs sm:max-w-xs sm:w-2/3 md:max-w-md md:w-2/3 lg:max-w-lg lg:w-2/3 xl:max-w-xl xl:w-2/3 text-custom-gray font-brygada-1918 text-xl font-normal italic mb-2">
-                Winner of Best Mobile App <br /> at Ignition Hacks 2023
+              <h1 className="ml-10 max-w-xxs w-2/3 xs:max-w-xxs xs:w-2/3 max-w-xs sm:max-w-xs sm:w-2/3 md:max-w-md md:w-2/3 lg:max-w-lg lg:w-2/3 xl:max-w-xl xl:w-2/3 text-custom-gray font-brygada-1918 text-xl font-normal italic mb-2">
+                Winner of Best Mobile App at Ignition Hacks 2023
               </h1>
               <p className="ml-10 max-w-xxs w-2/3 xs:max-w-xxs xs:w-2/3 max-w-xs sm:max-w-xs sm:w-2/3 md:max-w-md md:w-2/3 lg:max-w-lg lg:w-2/3 xl:max-w-xl xl:w-2/3 text-custom-gray font-brygada-1918 text-lg">
                 Worked with a team of 3 to create a web app where users upload
@@ -73,7 +73,7 @@ export default function Projects() {
           <div className="flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row flex items-center mt-32 lg:text-right xl:text-right">
             <img
               src={screenImage}
-              className="mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22 max-w-xxs w-2/3 h-2/3 xs:max-w-xxs xs:h-1/3 xs:w-1/3 sm:max-w-xs sm:h-1/2 sm:w-1/2 md:max-w-md md:h-1/2 md:w-1/2 lg:max-w-lg lg:h-1/2 lg:w-1/2 xl:max-w-xl xl:h-1/2 xl:w-1/2 xs:ml-0 sm:mr-10 md:mr-10 lg:mr-20 xl:mr-20 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20"
+              className="mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22 max-w-xxs w-1/2 h-1/2 xs:max-w-xxs xs:h-2/3 xs:w-2/3 sm:max-w-xs sm:h-1/2 sm:w-1/2 md:max-w-md md:h-1/2 md:w-1/2 lg:max-w-lg lg:h-1/2 lg:w-1/2 xl:max-w-xl xl:h-1/2 xl:w-1/2 xs:ml-0 sm:mr-10 md:mr-10 lg:mr-20 xl:mr-20 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20"
             />
             <div>
               <p className="ml-10 max-w-xxs w-2/3 xs:max-w-xxs xs:w-2/3 max-w-xs sm:max-w-xs sm:w-2/3 md:max-w-md md:w-2/3 lg:max-w-lg lg:w-2/3 xl:max-w-xl xl:w-2/3 text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-2">
