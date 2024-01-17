@@ -2,12 +2,13 @@ import backgroundImage from "../imgs/Background.png";
 import phoneImage from "../imgs/phone.png";
 import "../fonts.css";
 import screenImage from "../imgs/screen.png";
+import gallery from "../imgs/gallery.jpg";
 import { Link } from "@remix-run/react";
 import { motion, Variants } from "framer-motion";
 
 export default function Projects() {
   return (
-    <div className="scrollable-container h-[2400px] sm:h-[2300px] md:h-[2200px] lg:h-[1800px] xl:h-[1800px] overflow-y-scroll relative overflow-x:hidden">
+    <div className="scrollable-container h-[3200px] sm:h-[3200px] md:h-[2800px] lg:h-[2200px] xl:h-[2000px] overflow-y-scroll relative overflow-x:hidden">
       <div
         className="h-full bg-cover bg-center flex flex-col items-start px-4"
         style={{ backgroundImage: `url(${backgroundImage})` }}>
@@ -24,6 +25,7 @@ export default function Projects() {
           </Link>
           <Link to="/work" className="text-custom-gray hover:text-custom-hover font-inter text-lg">work</Link>
         </div>
+
         <motion.div
           initial="hide"
           whileInView="show"
@@ -56,7 +58,7 @@ export default function Projects() {
             </div>
             <motion.img
               src={phoneImage}
-              className="rounded-md hover-zoom sm:mr-10 md:mr-10 lg:mr-10 xl:mr-20 max-w-xxs mt-10 mr-10 h-2/3 w-2/3 xs:max-w-xxs xs:h-1/2 xs:w-1/2 sm:max-w-xs sm:h-1/2 sm:w-1/2 md:max-w-md md:h-1/2 md:w-1/2 lg:max-w-lg lg:h-1/2 lg:w-1/2 xs:ml-0 xl:max-w-xl xl:h-1/2 xl:w-1/2 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20 mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22"
+              className="rounded-md hover-zoom sm:mr-10 md:mr-10 lg:mr-10 xl:mr-20 max-w-xxs mt-10 mr-10 h-2/3 w-2/3 xs:max-w-xxs xs:h-1/2 xs:w-1/2 sm:max-w-xs sm:h-1/2 sm:w-1/2 md:max-w-sm md:h-1/2 md:w-1/2 lg:max-w-md lg:h-1/2 lg:w-1/2 xs:ml-0 xl:max-w-lg xl:h-1/2 xl:w-1/2 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20 mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22"
               whileHover={{ scale: 1.1 }} // Increase the size by 20% on hover
             />
 
@@ -74,7 +76,7 @@ export default function Projects() {
           <div className="flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row flex items-center mt-32 lg:text-right xl:text-right">
           <motion.img
               src={screenImage}
-              className="rounded-md mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22 max-w-xxs w-1/2 h-1/2 xs:max-w-xxs xs:h-2/3 xs:w-2/3 sm:max-w-xs sm:h-1/2 sm:w-1/2 md:max-w-md md:h-1/2 md:w-1/2 lg:max-w-lg lg:h-1/2 lg:w-1/2 xl:max-w-xl xl:h-1/2 xl:w-1/2 xs:ml-0 sm:mr-10 md:mr-10 lg:mr-20 xl:mr-20 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20"
+              className="rounded-md mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22 max-w-xxs w-1/2 h-1/2 xs:max-w-xxs xs:h-2/3 xs:w-2/3 sm:max-w-xs sm:h-1/2 sm:w-1/2 md:max-w-sm md:h-1/2 md:w-1/2 lg:max-w-md lg:h-1/2 lg:w-1/2 xl:max-w-lg xl:h-1/2 xl:w-1/2 xs:ml-0 sm:mr-10 md:mr-10 lg:mr-20 xl:mr-20 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20"
               whileHover={{ scale: 1.1 }} 
               />
 
@@ -82,7 +84,7 @@ export default function Projects() {
               <p className="ml-10 max-w-xxs w-2/3 xs:max-w-xxs xs:w-2/3 max-w-xs sm:max-w-xs sm:w-2/3 md:max-w-md md:w-2/3 lg:max-w-lg lg:w-2/3 xl:max-w-xl xl:w-2/3 text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-2">
                 Product Comparison
               </p>
-              <p className="ml-10 max-w-xxs w-2/3 xs:max-w-xxs xs:w-2/3 max-w-xs sm:max-w-xs sm:w-2/3 md:max-w-md md:w-2/3 lg:max-w-lg lg:w-2/3 xl:max-w-xl xl:w-2/3 text-custom-gray font-brygada-1918 text-lg mb-24">
+              <p className="ml-10 max-w-xxs w-2/3 xs:max-w-xxs xs:w-2/3 max-w-xs sm:max-w-xs sm:w-2/3 md:max-w-md md:w-2/3 lg:max-w-lg lg:w-2/3 xl:max-w-xl xl:w-2/3 text-custom-gray font-brygada-1918 text-lg">
                 Assembled a REST API in Java that seamlessly integrates with
                 OpenAI's API to find the ingredients of products given their
                 names. Incorporated data processing mechanisms to identify
@@ -103,7 +105,25 @@ export default function Projects() {
           viewport={{ once: true }}
           className="container ml-12"
         >
+          <div className="flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row flex items-center mt-32">
 
+            <div>
+              <p className="ml-10 max-w-xxs w-2/3 xs:max-w-xxs xs:w-2/3 max-w-xs sm:max-w-xs sm:w-2/3 md:max-w-md md:w-2/3 lg:max-w-lg lg:w-2/3 xl:max-w-xl xl:w-2/3 text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-2">
+                Eventful
+              </p>
+              <p className="ml-10 max-w-xxs w-2/3 xs:max-w-xxs xs:w-2/3 max-w-xs sm:max-w-xs sm:w-2/3 md:max-w-md md:w-2/3 lg:max-w-lg lg:w-2/3 xl:max-w-xl xl:w-2/3 text-custom-gray font-brygada-1918 text-lg mb-12">
+              Submitted to Hack the Valley 8. Our project ranked in the upper 17.5% percentile among all the projects at the hackathon. 
+              All users need to do is input the type of event they're planning, specify their budget, and the app generates a curated list of items for their event. 
+              Users will then also receive a comprehensive list of where to procure each item at the most budget-friendly prices. Each item in the list is linked directly to its product page, ensuring users have a hassle-free shopping experience.
+              </p>
+            </div>
+            <motion.img
+              src={gallery}
+              className="rounded-md mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22 max-w-xxs w-1/2 h-1/2 xs:max-w-xxs xs:h-1/3 xs:w-1/3 sm:max-w-xs sm:h-1/4 sm:w-1/4 md:max-w-sm md:h-1/4 md:w-1/4 lg:max-w-md lg:h-1/4 lg:w-1/4 xl:max-w-lg xl:h-1/4 xl:w-1/4 xs:ml-0 sm:mr-10 md:mr-10 lg:mr-20 xl:mr-20 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20"
+              whileHover={{ scale: 1.1 }} 
+              />
+          </div>
+          
         </motion.div>
 
         <motion.div
