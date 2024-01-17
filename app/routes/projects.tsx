@@ -54,11 +54,12 @@ export default function Projects() {
                 utilizing Docker containers.
               </p>
             </div>
-
-            <img
+            <motion.img
               src={phoneImage}
-              className="sm:mr-10 md:mr-10 lg:mr-10 xl:mr-20 max-w-xxs mt-10 mr-10 h-2/3 w-2/3 xs:max-w-xxs xs:h-1/2 xs:w-1/2 sm:max-w-xs sm:h-1/2 sm:w-1/2 md:max-w-md md:h-1/2 md:w-1/2 lg:max-w-lg lg:h-1/2 lg:w-1/2 xs:ml-0 xl:max-w-xl xl:h-1/2 xl:w-1/2 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20 mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22"
+              className="rounded-md hover-zoom sm:mr-10 md:mr-10 lg:mr-10 xl:mr-20 max-w-xxs mt-10 mr-10 h-2/3 w-2/3 xs:max-w-xxs xs:h-1/2 xs:w-1/2 sm:max-w-xs sm:h-1/2 sm:w-1/2 md:max-w-md md:h-1/2 md:w-1/2 lg:max-w-lg lg:h-1/2 lg:w-1/2 xs:ml-0 xl:max-w-xl xl:h-1/2 xl:w-1/2 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20 mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22"
+              whileHover={{ scale: 1.1 }} // Increase the size by 20% on hover
             />
+
           </div>
         </motion.div>
 
@@ -71,10 +72,12 @@ export default function Projects() {
           className="container ml-12"
         >
           <div className="flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row flex items-center mt-32 lg:text-right xl:text-right">
-            <img
+          <motion.img
               src={screenImage}
-              className="mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22 max-w-xxs w-1/2 h-1/2 xs:max-w-xxs xs:h-2/3 xs:w-2/3 sm:max-w-xs sm:h-1/2 sm:w-1/2 md:max-w-md md:h-1/2 md:w-1/2 lg:max-w-lg lg:h-1/2 lg:w-1/2 xl:max-w-xl xl:h-1/2 xl:w-1/2 xs:ml-0 sm:mr-10 md:mr-10 lg:mr-20 xl:mr-20 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20"
-            />
+              className="rounded-md mb-4 xxs:mb-4 xs:mb-4 sm:mb-10 md:mb-12 lg:mb-12 xl:mb-22 max-w-xxs w-1/2 h-1/2 xs:max-w-xxs xs:h-2/3 xs:w-2/3 sm:max-w-xs sm:h-1/2 sm:w-1/2 md:max-w-md md:h-1/2 md:w-1/2 lg:max-w-lg lg:h-1/2 lg:w-1/2 xl:max-w-xl xl:h-1/2 xl:w-1/2 xs:ml-0 sm:mr-10 md:mr-10 lg:mr-20 xl:mr-20 xxs:ml-0 sm:ml-0 md:ml-10 lg:ml-20 xl:ml-20"
+              whileHover={{ scale: 1.1 }} 
+              />
+
             <div>
               <p className="ml-10 max-w-xxs w-2/3 xs:max-w-xxs xs:w-2/3 max-w-xs sm:max-w-xs sm:w-2/3 md:max-w-md md:w-2/3 lg:max-w-lg lg:w-2/3 xl:max-w-xl xl:w-2/3 text-custom-gray font-brygada-1918 text-3xl font-extrabold mb-2">
                 Product Comparison
@@ -90,6 +93,17 @@ export default function Projects() {
               </p>
             </div>
           </div>
+        </motion.div>
+
+        <motion.div
+          initial="hide"
+          whileInView="show"
+          exit="hide"
+          variants={fadeIn}
+          viewport={{ once: true }}
+          className="container ml-12"
+        >
+
         </motion.div>
 
         <motion.div
