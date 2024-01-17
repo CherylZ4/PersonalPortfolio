@@ -1,7 +1,5 @@
 import backgroundImage from "../imgs/Background.png";
-import phoneImage from "../imgs/phone.png";
 import "../fonts.css";
-import screenImage from "../imgs/screen.png";
 import { Link } from "@remix-run/react";
 import { motion, Variants } from "framer-motion";
 
@@ -12,6 +10,7 @@ export default function work() {
                 className="h-full bg-cover bg-center flex flex-col items-start justify-start px-4"
                 style={{ backgroundImage: `url(${backgroundImage})` }}
             >
+
                 <div className="absolute top-6 right-16 flex space-x-8">
                     <Link
                         to="/"
@@ -27,6 +26,10 @@ export default function work() {
                     </Link>
                     <Link to="/work" className="text-custom-gray hover:text-custom-hover font-inter text-lg">work</Link>
                 </div>
+
+                <p className= "text-custom-gray font-brygada-1918 text-3xl mb-8 mt-44 ml-20" >
+                    In Progress...
+                </p>
 
                 <motion.div
                     initial="hide"
