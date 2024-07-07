@@ -40,7 +40,7 @@ export default function work() {
                     className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2"
                 >
                     <div className="mr-18 mb-8">
-                        <p className="text-custom-gray font-brygada-1918 text-4xl font-semibold tracking-widest">
+                        <p className="text-custom-gray font-brygada-1918 text-4xl font-semibold tracking-widest whitespace-nowrap">
                             get in touch!
                         </p>
                     </div>
