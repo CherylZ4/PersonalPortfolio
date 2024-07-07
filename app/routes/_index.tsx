@@ -96,8 +96,8 @@ export default function Index() {
           variants={fadeIn}
           viewport={{ once: true }} className="flex flex-col items-end absolute bottom-4 left-1/2 transform -translate-x-1/2">
 
-          <div className="flex items-center ml-18 sm:mr-3 md:mr-3 lg:mr-3 xl:mr-3 mb-8 ">
-            <p className="text-custom-gray font-brygada-1918 text-4xl font-semibold tracking-widest">get in touch!</p>
+          <div className="flex items-center ml-14 sm:mr-3 md:mr-3 lg:mr-3 xl:mr-3 mb-8 ">
+            <p className="text-custom-gray font-brygada-1918 text-3xl font-semibold tracking-widest whitespace-nowrap">get in touch!</p>
           </div>
 
 

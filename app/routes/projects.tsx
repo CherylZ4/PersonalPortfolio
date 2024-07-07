@@ -33,6 +33,7 @@ export default function Projects() {
           variants={fadeIn}
           viewport={{ once: true }}
           className="container ml-12"
+
         >
           <p className="text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 mt-20">
             Projects
