@@ -55,7 +55,7 @@ export const StickyScroll = ({
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
       }}
-      className="h-[30rem] overflow-y-auto flex justify-center relative space-x-36 rounded-md p-10"
+      className="h-[30rem] overflow-y-auto flex justify-center relative space-x-10 rounded-md p-10"
       ref={ref}
     >
       <div className="div relative flex items-start px-4 ">
@@ -69,14 +69,14 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-2xl font-bold text-custom-gray font-brygada-1918"
+                className="text-4xl font-bold text-custom-gray font-brygada-1918"
               >
                 {item.title}
               </motion.h2>
               <motion.h3
                 initial={{ opacity: 0 }}
                 animate={{ opacity: activeCard === index ? 1 : 0.3 }}
-                className="text-lg text-custom-gray font-brygada-1918 mt-2 mb-4" // Adjust spacing as needed
+                className="text-2xl text-custom-gray font-brygada-1918 mt-2 mb-4"
               >
                 {item.subheader}
               </motion.h3>
@@ -87,13 +87,13 @@ export const StickyScroll = ({
                 animate={{
                   opacity: activeCard === index ? 1 : 0.3,
                 }}
-                className="text-kg text-custom-gray font-brygada-1918 max-w-sm mt-10"
+                className="text-xl text-custom-gray font-brygada-1918 max-w-sm mt-10"
               >
                 {item.description}
               </motion.p>
             </div>
           ))}
-          <div className="h-24" />
+          <div className="h-16" />
         </div>
       </div>
       <div

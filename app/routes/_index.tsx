@@ -56,8 +56,14 @@ export default function Index() {
 
 
         <motion.div
-          initial="hide"
-          whileInView="show"
+          initial={{ opacity: 0 }}
+          whileInView={{ 
+            opacity: 1,
+            transition: {
+              duration: 4,
+              delay: 1
+            }
+          }}
           exit="hide"
           variants={fadeIn}
           viewport={{ once: true }}>
@@ -82,7 +88,7 @@ export default function Index() {
         </motion.div>
 
 
-        <div className="absolute top-6 right-16 flex space-x-8">
+        <div className="fixed top-6 right-16 flex space-x-8 z-50">
           <Link to="/" className=" text-custom-gray hover:text-custom-hover font-inter text-lg" > home</Link>
           <Link to="/projects" className="  text-custom-gray hover:text-custom-hover font-inter text-lg" > projects</Link>
           <Link to="/work" className="text-custom-gray hover:text-custom-hover font-inter text-lg">work</Link>
@@ -124,7 +130,7 @@ const fadeIn: Variants = {
   show: {
     opacity: 1,
     transition: {
-      duration: 3,
+      duration: 2,
     },
   },
   exit: { opacity: 0, transition: { duration: 1 } },

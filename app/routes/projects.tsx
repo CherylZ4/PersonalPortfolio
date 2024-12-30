@@ -6,6 +6,7 @@ import gallery from "../imgs/gallery.jpg";
 import { Link } from "@remix-run/react";
 import { motion, Variants } from "framer-motion";
 import { StickyScroll } from "~/components/ui/sticky-scroll-reveal";
+import { Timeline } from "~/components/ui/timeline";
 
 export default function Projects() {
   const content = [
@@ -53,33 +54,111 @@ export default function Projects() {
     }
 ];
 
+const timelineData = [
+  {
+      title: "2024",
+      content: (
+          <div className="prose prose-sm prose-neutral dark:prose-invert">
+              <h4 className="text-custom-gray font-brygada-1918 text-2xl font-medium mb-2">
+                  Developer Intern @ RBC T&O
+              </h4>
+              <p className="text-custom-gray font-brygada-1918 text-xl mb-4">
+                  Jan 2024 - Aug 2024
+              </p>
+              <ul className="space-y-4">
+                  <li className="text-custom-gray font-brygada-1918 text-lg">
+                      • Spearheaded the development of a POC to integrate Spring Boot applications with Camunda 8
+                      via its SaaS offering.
+                  </li>
+                  <li className="text-custom-gray font-brygada-1918 text-lg">
+                      • Developed over 100 JUnit tests using Mockito and WireMock for a library managing Amazon S3
+                      presigned URLs.
+                  </li><li className="text-custom-gray font-brygada-1918 text-lg">
+                      • Implemented an automated email process using Pega Robotics for OWL management.
+                  </li>
+                  <li className="text-custom-gray font-brygada-1918 text-lg">
+                      • Deployed applications to Helios, an in-house CI/CD pipeline.
+                  </li>
+              </ul>
+          </div>
+      ),
+  },
+  // Add more work experiences here with different years
+];
+
+
   return (
-    <div className="scrollable-container h-[3200px] sm:h-[3200px] md:h-[2800px] lg:h-[2200px] xl:h-[2000px] overflow-y-scroll relative overflow-x:hidden">
+    <div className="scrollable-container h-[2440px] sm:h-[2440px] md:h-[2240px] lg:h-[1840px] xl:h-[1640px] overflow-y-scroll relative overflow-x:hidden">
       <div
         className="h-full bg-cover bg-center flex flex-col items-start px-4"
         style={{ backgroundImage: `url(${backgroundImage})` }}>
-        <div className="absolute top-6 right-16 flex space-x-8">
-          <Link
-            to="/"
-            className=" text-custom-gray hover:text-custom-hover font-inter text-lg">
-            home
-          </Link>
-          <Link
-            to="/projects"
-            className="  text-custom-gray hover:text-custom-hover font-inter text-lg">
-            projects
-          </Link>
-          <Link to="/work" className="text-custom-gray hover:text-custom-hover font-inter text-lg">work</Link>
+        <div className="fixed top-6 right-16 flex space-x-8 z-50">
+          <Link 
+                to="/" 
+                className="text-custom-gray hover:text-custom-hover font-inter text-lg"
+            >
+                home
+            </Link>
+            <a 
+                href="#projects"
+                className="text-custom-gray hover:text-custom-hover font-inter text-lg"
+                onClick={(e) => {
+                    e.preventDefault();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }}
+            >
+                projects
+            </a>
+            <a 
+                href="#work"
+                className="text-custom-gray hover:text-custom-hover font-inter text-lg"
+                onClick={(e) => {
+                    e.preventDefault();
+                    document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+            >
+                work
+            </a>
+        
         </div>
+
+          
+          <motion.div 
+          initial="hide"
+          whileInView="show"
+          exit="hide"
+          variants={fadeIn}
+          viewport={{ once: true }}
+        >
 
           <p className="text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 mt-20 ml-28">
             Projects
           </p>
 
-          <div className="w-full">
+          <div className="w-full ml-20 mt-20">
                     <StickyScroll content={content} />
                 </div>
           
+          </motion.div>
+
+          <motion.div
+          initial="hide"
+          whileInView="show"
+          exit="hide"
+          variants={fadeIn}
+          viewport={{ once: true, margin: "100px 0px 0px 0px"}}
+        >
+          
+          <section id="work" className="mt-40">
+              <p className="text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 ml-28">
+                        Work Experience
+              </p>
+              <div className="w-full ml-20">
+              <Timeline data={timelineData} />
+              </div>
+          </section>
+
+          </motion.div>
 
         <motion.div
           initial="hide"
@@ -133,7 +212,7 @@ const fadeIn: Variants = {
   show: {
     opacity: 1,
     transition: {
-      duration: 3,
+      duration: 2,
     },
   },
   exit: { opacity: 0, transition: { duration: 1 } },
