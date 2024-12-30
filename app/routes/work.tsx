@@ -2,8 +2,14 @@ import backgroundImage from "../imgs/Background.png";
 import "../fonts.css";
 import { Link } from "@remix-run/react";
 import { motion, Variants } from "framer-motion";
+import { StickyScroll } from "~/components/ui/sticky-scroll-reveal";  
+import speechSummarizer from "../imgs/phone.png";  // Add these imports
+import productComparison from "../imgs/screen.png";
+import eventful from "../imgs/gallery.jpg";
 
 export default function work() {
+
+
     return (
         <div className="scrollable-container h-[2400px] overflow-y-scroll relative">
             <div
@@ -27,9 +33,11 @@ export default function work() {
                     <Link to="/work" className="text-custom-gray hover:text-custom-hover font-inter text-lg">work</Link>
                 </div>
 
-                <p className= "text-custom-gray font-brygada-1918 text-3xl mb-8 mt-44 ml-20" >
-                    In Progress...
+                <p className="text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 mt-20 ml-28">
+                    Work Experience
                 </p>
+
+                
 
                 <motion.div
                     initial="hide"
