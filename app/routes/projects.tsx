@@ -15,7 +15,7 @@ export default function Projects() {
         subheader: "Winner of Best Mobile App at Ignition Hacks 2023",
         description: "Worked with a team of 3 to create a web app where users upload audio/video files of their meetings and the app will take that file and convert it into condensed and informative meeting minutes. Made a REST API that calls Google Cloud's Speech to Text API to orchestrate a conversion of audio content to text. Deployed the application to Google Kubernetes Engine(GKE) utilizing Docker containers.",
         content: (
-            <div className="w-full h-full flex items-center justify-center">
+            <div className="w-full h-[300px] flex items-center justify-center pb-16">
                 <img 
                     src={phoneImage} 
                     alt="Speech Summarizer App" 
@@ -29,7 +29,7 @@ export default function Projects() {
         subheader: "Smart Product Analysis Tool",
         description: "Assembled a REST API in Java that seamlessly integrates with OpenAI's API to find the ingredients of products given their names. Incorporated data processing mechanisms to identify common and unique ingredients of each product. Implemented ReactJS to build a dynamic webpage where users can input products to compare only if they are logged in. There is also a history page that displays all past requests.",
         content: (
-            <div className="w-full h-full flex items-center justify-center">
+            <div className="w-full h-[300px] flex items-center justify-center -mt-12">
                 <img 
                     src={screenImage} 
                     alt="Product Comparison Tool" 
@@ -43,7 +43,7 @@ export default function Projects() {
         subheader: "Top 17.5% at Hack the Valley 8",
         description: "All users need to do is input the type of event they're planning, specify their budget, and the app generates a curated list of items for their event. Users will then also receive a comprehensive list of where to procure each item at the most budget-friendly prices. Each item in the list is linked directly to its product page, ensuring users have a hassle-free shopping experience.",
         content: (
-            <div className="w-full h-full flex items-center justify-center">
+            <div className="w-full h-[300px] flex items-center justify-center">
                 <img 
                     src={gallery} 
                     alt="Eventful App" 
@@ -88,7 +88,7 @@ const timelineData = [
 
 
   return (
-    <div className="scrollable-container h-[2440px] sm:h-[2440px] md:h-[2240px] lg:h-[1840px] xl:h-[1640px] overflow-y-scroll relative overflow-x:hidden">
+    <div className="scrollable-container h-[3600px] sm:h-[3200px] md:h-[2400px] lg:h-[2000px] xl:h-[1800px] overflow-y-scroll overflow-x-hidden relative">
       <div
         className="h-full bg-cover bg-center flex flex-col items-start px-4"
         style={{ backgroundImage: `url(${backgroundImage})` }}>
@@ -135,7 +135,7 @@ const timelineData = [
             Projects
           </p>
 
-          <div className="w-full ml-20 mt-20">
+          <div className="w-full ml-4 sm:ml-20mt-20">
                     <StickyScroll content={content} />
                 </div>
           
@@ -150,11 +150,8 @@ const timelineData = [
         >
           
           <section id="work" className="mt-40">
-              <p className="text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 ml-28">
-                        Work Experience
-              </p>
-              <div className="w-full ml-20">
-              <Timeline data={timelineData} />
+              <div className="w-full md:ml-20">
+                  <Timeline data={timelineData} />
               </div>
           </section>
 
