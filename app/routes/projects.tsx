@@ -130,15 +130,13 @@ const timelineData = [
           variants={fadeIn}
           viewport={{ once: true }}
         >
-
-          <p className="text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 mt-20 ml-28">
+          <p className="text-custom-gray font-brygada-1918 text-5xl font-medium mb-8 ml-4 md:ml-28 mt-20">
             Projects
           </p>
 
-          <div className="w-full ml-4 sm:ml-20mt-20">
-                    <StickyScroll content={content} />
-                </div>
-          
+          <div className="w-full ml-4 sm:ml-20">
+              <StickyScroll content={content} />
+          </div>
           </motion.div>
 
           <motion.div
@@ -149,7 +147,7 @@ const timelineData = [
           viewport={{ once: true, margin: "100px 0px 0px 0px"}}
         >
           
-          <section id="work" className="mt-40">
+          <section id="work" className="mt-36 md:mt-40">
               <div className="w-full md:ml-20">
                   <Timeline data={timelineData} />
               </div>
